@@ -1,0 +1,17 @@
+Code to find 'atomic cycles' in a graph using the routines from the
+Waffles machine learning library:
+
+http://gashler.com/mike/waffles/index.html
+https://github.com/mikegashler/waffles
+
+References:
+
+Gashler, M. (2011). Waffles: A machine learning toolkit. Journal of
+Machine Learning Research, 12(Jul), 2383-2387.
+
+Gashler, M., & Martinez, T. (2012). Robust manifold learning with
+CycleCut. Connection Science, 24(1), 57-69.
+
+
+ADS
+Fri Aug  9 07:45:49 CEST 2019
