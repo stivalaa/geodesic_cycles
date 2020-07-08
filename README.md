@@ -10,5 +10,8 @@ The code and scripts in this repository were imported from the geodesic_cycles_c
 
 The code for counting geodesic cycles uses the Waffles machine learning library https://github.com/mikegashler/waffles.
 
-## Reference
+## References
+
+Martin, J. L. 2017. "The structure of node and edge generation in a delusional social network". Journal of Social Structure, 18(1):1–21. https://www.exeley.com/journal_of_social_structure/doi/10.21307/joss-2018-005
+
 Stivala, A. 2020.  "Geodesic cycle length distributions in delusional and other social networks". Unpublished manuscript.
