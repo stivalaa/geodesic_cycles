@@ -14,4 +14,6 @@ The code for counting geodesic cycles uses the Waffles machine learning library 
 
 Martin, J. L. 2017. "The structure of node and edge generation in a delusional social network". Journal of Social Structure, 18(1):1–21. https://www.exeley.com/journal_of_social_structure/doi/10.21307/joss-2018-005
 
+Stivala, A. 2019. "The hollow ring of randomness: Large worlds in small data". Fourth Annual Australian Social Network Analysis Conference (ASNAC 2019), November 28-29, 2019, Adelaide, South Australia. https://stivalaa.github.io/AcademicWebsite/slides/geodesic_cycles_slides.pdf
+
 Stivala, A. 2020.  "Geodesic cycle length distributions in delusional and other social networks". Unpublished manuscript.
