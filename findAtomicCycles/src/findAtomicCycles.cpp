@@ -74,8 +74,8 @@ public:
       }
     }
     cout << std::endl;
+    return true;
   }
-
 };
 
 
