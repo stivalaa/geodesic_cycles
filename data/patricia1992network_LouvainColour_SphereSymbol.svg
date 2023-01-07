@@ -1,0 +1,2572 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Title: 3. C:\Users\alexd\Google Drive\work\delusional_social_network\data\patricia1992.net (85) -->
+
+<!-- Creator: Pajek 5.07: http://mrvar.fdv.uni-lj.si/pajek -->
+
+<!-- CreationDate: 07-24-2019, 15:23:51 -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xml:space="preserve"
+   viewBox="0 0 1296 696"
+   version="1.1"
+   id="svg728"
+   sodipodi:docname="patricia1992network_LouvainColour_SphereSymbol.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
+   id="metadata734"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs732" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1920"
+   inkscape:window-height="986"
+   id="namedview730"
+   showgrid="false"
+   inkscape:zoom="1.25"
+   inkscape:cx="511.2"
+   inkscape:cy="410.64"
+   inkscape:window-x="-11"
+   inkscape:window-y="-11"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="PajekNet" />
+<title
+   id="title2">3. C:\Users\alexd\Google Drive\work\delusional_social_network\data\patricia1992.net (85)</title>
+<g
+   inkscape:groupmode="layer"
+   id="PajekSig"
+   inkscape:label="PajekSignature">
+<g
+   transform="translate(3 678)"
+   id="g20">
+<g
+   transform="scale(0.1)"
+   id="g18">
+<g
+   transform="matrix(1 0 0 -1 0 96)"
+   id="g16">
+<path
+   d="M   7.67  49.98 L  31.76  72.76 L  46.91  78.63          L  57.23  80.49 M  72.86  65.23 L  65.73  83.25          L  57.06  75.49 L  56.75  68.65 M  76.27  68.03          L  75.65  84.50 L  93.92  91.02 L 107.24  74.87          M  80.29  67.72 L  89.28  84.81 L 104.77  81.70          L 116.23  73.31 L 121.18  59.33 M  56.75  81.08          L  71.31  64.30"
+   style="fill:none; stroke:saddlebrown; stroke-width:5;"
+   id="path4" />
+<path
+   d="M  86.18  70.21 L  91.45  73.00 L  95.78  69.58          M  91.14  60.88 L  96.09  62.75 L  98.26  59.33"
+   style="fill:none; stroke:saddlebrown; stroke-width:1.5;"
+   id="path6" />
+<path
+   d="M  81.07  49.08 L  87.81  49.08 L  93.30  54.38          L  93.30  60.88 L  93.30  67.39 L  87.81  72.69          L  81.07  72.69 L  74.33  72.69 L  68.83  67.39          L  68.83  60.88 L  68.83  54.38 L  74.33  49.08          L  81.07  49.08 z"
+   style="fill:maroon; stroke:saddlebrown; stroke-width:1;"
+   id="path8" />
+<path
+   d="M  54.63  37.53 L  68.53  43.56 L  75.39  55.85          L  69.90  65.35 L  64.41  72.86 L  48.60  74.06          L  34.71  68.04 L  20.81  55.02 L  15.95  40.72          L  17.44  33.22 L  24.92  28.72 L  40.73  30.51          L  54.63  37.53 z"
+   style="fill:maroon; stroke:saddlebrown; stroke-width:1;"
+   id="path10" />
+<path
+   d="M  77.82  50.63 L 103.84  59.33 L 131.10  43.80          L 139.46  27.95 L 139.15  15.83 M  35.99   5.27          L  47.15  32.92 L  61.71  50.01 L  70.07  46.90          L  82.77  45.04 L  83.39  27.02 L  65.42  12.11          M  68.52  50.63 L  91.14  49.39 L 103.53  43.17          L 117.16  22.67 L 115.30   8.38"
+   style="fill:none; stroke:saddlebrown; stroke-width:5;"
+   id="path12" />
+<path
+   d="M  41.57  54.98 L  60.16  64.61 M  52.41  66.17          L  57.99  57.47"
+   style="fill:none; stroke:white; stroke-width:5;"
+   id="path14" />
+</g>
+</g>
+<animateMotion
+   dur="20s"
+   path="M3 0 L1278 0"
+   begin="120s"
+   fill="freeze" />
+</g>
+<g
+   transform="translate(3 678)"
+   id="g26">
+<g
+   transform="scale(0.1)"
+   id="g24">
+<text
+   x="5"
+   y="140"
+   style="font-family:sans-serif;font-size:133.3333333px;fill:green;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text22">Pajek</text>
+
+</g>
+<animateMotion
+   dur="0.1s"
+   path="M3 0 L1278 0"
+   begin="120s"
+   fill="freeze" />
+</g>
+</g>      <!-- Layer Signature -->
+
+<g
+   inkscape:groupmode="layer"
+   id="PajekNet"
+   inkscape:label="PajekNetwork">
+
+<!-- Edge:     1    5 -->
+<line
+   x1="353.81"
+   y1="199.33"
+   x2="302.88"
+   y2="215.83"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line29" />
+<!-- Edge:     1   83 -->
+<line
+   x1="353.81"
+   y1="199.33"
+   x2="344.61"
+   y2="147.34"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line31" />
+<!-- Edge:     2   29 -->
+<line
+   x1="538.36"
+   y1="184.65"
+   x2="540.43"
+   y2="124.79"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line33" />
+<!-- Edge:     2   71 -->
+<line
+   x1="538.36"
+   y1="184.65"
+   x2="607.69"
+   y2="319.81"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line35" />
+<!-- Edge:     3    7 -->
+<line
+   x1="141.78"
+   y1="233.16"
+   x2="230.43"
+   y2="227.94"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line37" />
+<!-- Edge:     3   34 -->
+<line
+   x1="141.78"
+   y1="233.16"
+   x2="106.01"
+   y2="293.85"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line39" />
+<!-- Edge:     3   43 -->
+<line
+   x1="141.78"
+   y1="233.16"
+   x2="196.73"
+   y2="303.39"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line41" />
+<!-- Edge:     3   65 -->
+<line
+   x1="141.78"
+   y1="233.16"
+   x2="168.22"
+   y2="182.00"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line43" />
+<!-- Edge:     4   16 -->
+<line
+   x1="1037.97"
+   y1="393.52"
+   x2="1013.60"
+   y2="350.16"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line45" />
+<!-- Edge:     4   79 -->
+<line
+   x1="1037.97"
+   y1="393.52"
+   x2="1094.08"
+   y2="390.04"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line47" />
+<!-- Edge:     5    7 -->
+<line
+   x1="302.88"
+   y1="215.83"
+   x2="230.43"
+   y2="227.94"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line49" />
+<!-- Edge:     5   43 -->
+<line
+   x1="302.88"
+   y1="215.83"
+   x2="196.73"
+   y2="303.39"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line51" />
+<!-- Edge:     6   35 -->
+<line
+   x1="846.29"
+   y1="427.27"
+   x2="846.29"
+   y2="538.22"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line53" />
+<!-- Edge:     6   56 -->
+<line
+   x1="846.29"
+   y1="427.27"
+   x2="828.01"
+   y2="313.76"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line55" />
+<!-- Edge:     6   76 -->
+<line
+   x1="846.29"
+   y1="427.27"
+   x2="761.66"
+   y2="435.97"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line57" />
+<!-- Edge:     7   43 -->
+<line
+   x1="230.43"
+   y1="227.94"
+   x2="196.73"
+   y2="303.39"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line59" />
+<!-- Edge:     7   65 -->
+<line
+   x1="230.43"
+   y1="227.94"
+   x2="168.22"
+   y2="182.00"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line61" />
+<!-- Edge:     8   80 -->
+<line
+   x1="935.06"
+   y1="91.87"
+   x2="979.13"
+   y2="69.88"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line63" />
+<!-- Edge:     8   81 -->
+<line
+   x1="935.06"
+   y1="91.87"
+   x2="899.29"
+   y2="148.25"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line65" />
+<!-- Edge:     9   53 -->
+<line
+   x1="463.97"
+   y1="376.19"
+   x2="434.42"
+   y2="402.15"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line67" />
+<!-- Edge:     9   73 -->
+<line
+   x1="463.97"
+   y1="376.19"
+   x2="474.21"
+   y2="341.53"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line69" />
+<!-- Edge:    10   36 -->
+<line
+   x1="1207.22"
+   y1="495.76"
+   x2="1137.89"
+   y2="463.74"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line71" />
+<!-- Edge:    10   38 -->
+<line
+   x1="1207.22"
+   y1="495.76"
+   x2="1153.31"
+   y2="536.55"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line73" />
+<!-- Edge:    11   71 -->
+<line
+   x1="674.96"
+   y1="352.73"
+   x2="607.69"
+   y2="319.81"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line75" />
+<!-- Edge:    12   42 -->
+<line
+   x1="337.48"
+   y1="26.03"
+   x2="377.27"
+   y2="70.23"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line77" />
+<!-- Edge:    13   30 -->
+<line
+   x1="1165.49"
+   y1="399.57"
+   x2="1083.84"
+   y2="338.88"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line79" />
+<!-- Edge:    13   36 -->
+<line
+   x1="1165.49"
+   y1="399.57"
+   x2="1137.89"
+   y2="463.74"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line81" />
+<!-- Edge:    14   27 -->
+<line
+   x1="1006.47"
+   y1="636.21"
+   x2="926.90"
+   y2="610.18"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line83" />
+<!-- Edge:    14   46 -->
+<line
+   x1="1006.47"
+   y1="636.21"
+   x2="1033.95"
+   y2="675.19"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line85" />
+<!-- Edge:    15   62 -->
+<line
+   x1="166.15"
+   y1="52.90"
+   x2="286.55"
+   y2="39.88"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line87" />
+<!-- Edge:    16   51 -->
+<line
+   x1="1013.60"
+   y1="350.16"
+   x2="959.56"
+   y2="299.91"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line89" />
+<!-- Edge:    16   66 -->
+<line
+   x1="1013.60"
+   y1="350.16"
+   x2="1011.53"
+   y2="437.71"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line91" />
+<!-- Edge:    16   30 -->
+<line
+   x1="1013.60"
+   y1="350.16"
+   x2="1083.84"
+   y2="338.88"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line93" />
+<!-- Edge:    16   32 -->
+<line
+   x1="1013.60"
+   y1="350.16"
+   x2="965.65"
+   y2="365.75"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line95" />
+<!-- Edge:    16   64 -->
+<line
+   x1="1013.60"
+   y1="350.16"
+   x2="953.34"
+   y2="336.31"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line97" />
+<!-- Edge:    17   81 -->
+<line
+   x1="845.38"
+   y1="123.82"
+   x2="899.29"
+   y2="148.25"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line99" />
+<!-- Edge:    18   42 -->
+<line
+   x1="353.81"
+   y1="104.89"
+   x2="377.27"
+   y2="70.23"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line101" />
+<!-- Edge:    18   83 -->
+<line
+   x1="353.81"
+   y1="104.89"
+   x2="344.61"
+   y2="147.34"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line103" />
+<!-- Edge:    18   44 -->
+<line
+   x1="353.81"
+   y1="104.89"
+   x2="428.20"
+   y2="133.49"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line105" />
+<!-- Edge:    19   71 -->
+<line
+   x1="669.90"
+   y1="290.37"
+   x2="607.69"
+   y2="319.81"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line107" />
+<!-- Edge:    19   75 -->
+<line
+   x1="669.90"
+   y1="290.37"
+   x2="793.28"
+   y2="268.73"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line109" />
+<!-- Edge:    20   55 -->
+<line
+   x1="587.74"
+   y1="245.69"
+   x2="634.26"
+   y2="181.17"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line111" />
+<!-- Edge:    20   75 -->
+<line
+   x1="587.74"
+   y1="245.69"
+   x2="793.28"
+   y2="268.73"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line113" />
+<!-- Edge:    21   81 -->
+<line
+   x1="940.38"
+   y1="157.92"
+   x2="899.29"
+   y2="148.25"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line115" />
+<!-- Edge:    22   57 -->
+<line
+   x1="262.05"
+   y1="456.78"
+   x2="289.53"
+   y2="421.22"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line117" />
+<!-- Edge:    22   68 -->
+<line
+   x1="262.05"
+   y1="456.78"
+   x2="321.15"
+   y2="481.91"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line119" />
+<!-- Edge:    23   61 -->
+<line
+   x1="867.80"
+   y1="353.64"
+   x2="893.20"
+   y2="393.52"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line121" />
+<!-- Edge:    24   55 -->
+<line
+   x1="685.20"
+   y1="234.00"
+   x2="634.26"
+   y2="181.17"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line123" />
+<!-- Edge:    25   51 -->
+<line
+   x1="917.70"
+   y1="237.48"
+   x2="959.56"
+   y2="299.91"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line125" />
+<!-- Edge:    25   81 -->
+<line
+   x1="917.70"
+   y1="237.48"
+   x2="899.29"
+   y2="148.25"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line127" />
+<!-- Edge:    26   81 -->
+<line
+   x1="1017.75"
+   y1="128.83"
+   x2="899.29"
+   y2="148.25"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line129" />
+<!-- Edge:    27   60 -->
+<line
+   x1="926.90"
+   y1="610.18"
+   x2="940.12"
+   y2="669.13"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line131" />
+<!-- Edge:    27   85 -->
+<line
+   x1="926.90"
+   y1="610.18"
+   x2="984.96"
+   y2="574.69"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line133" />
+<!-- Edge:    27   59 -->
+<line
+   x1="926.90"
+   y1="610.18"
+   x2="855.49"
+   y2="644.01"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line135" />
+<!-- Edge:    27   35 -->
+<line
+   x1="926.90"
+   y1="610.18"
+   x2="846.29"
+   y2="538.22"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line137" />
+<!-- Edge:    28   42 -->
+<line
+   x1="413.94"
+   y1="33.83"
+   x2="377.27"
+   y2="70.23"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line139" />
+<!-- Edge:    29   82 -->
+<line
+   x1="540.43"
+   y1="124.79"
+   x2="532.27"
+   y2="66.75"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line141" />
+<!-- Edge:    29   31 -->
+<line
+   x1="540.43"
+   y1="124.79"
+   x2="609.77"
+   y2="78.02"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line143" />
+<!-- Edge:    30   79 -->
+<line
+   x1="1083.84"
+   y1="338.88"
+   x2="1094.08"
+   y2="390.04"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line145" />
+<!-- Edge:    33   35 -->
+<line
+   x1="710.73"
+   y1="533.90"
+   x2="846.29"
+   y2="538.22"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line147" />
+<!-- Edge:    34   43 -->
+<line
+   x1="106.01"
+   y1="293.85"
+   x2="196.73"
+   y2="303.39"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line149" />
+<!-- Edge:    35   74 -->
+<line
+   x1="846.29"
+   y1="538.22"
+   x2="803.52"
+   y2="468.06"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line151" />
+<!-- Edge:    35   41 -->
+<line
+   x1="846.29"
+   y1="538.22"
+   x2="874.93"
+   y2="500.98"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line153" />
+<!-- Edge:    35   78 -->
+<line
+   x1="846.29"
+   y1="538.22"
+   x2="733.15"
+   y2="568.56"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line155" />
+<!-- Edge:    35   52 -->
+<line
+   x1="846.29"
+   y1="538.22"
+   x2="782.14"
+   y2="596.33"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line157" />
+<!-- Edge:    35   49 -->
+<line
+   x1="846.29"
+   y1="538.22"
+   x2="768.79"
+   y2="489.71"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line159" />
+<!-- Edge:    36   38 -->
+<line
+   x1="1137.89"
+   y1="463.74"
+   x2="1153.31"
+   y2="536.55"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line161" />
+<!-- Edge:    37   41 -->
+<line
+   x1="903.44"
+   y1="458.52"
+   x2="874.93"
+   y2="500.98"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line163" />
+<!-- Edge:    37   61 -->
+<line
+   x1="903.44"
+   y1="458.52"
+   x2="893.20"
+   y2="393.52"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line165" />
+<!-- Edge:    39   71 -->
+<line
+   x1="653.57"
+   y1="374.45"
+   x2="607.69"
+   y2="319.81"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line167" />
+<!-- Edge:    40   71 -->
+<line
+   x1="551.58"
+   y1="388.30"
+   x2="607.69"
+   y2="319.81"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line169" />
+<!-- Edge:    42   62 -->
+<line
+   x1="377.27"
+   y1="70.23"
+   x2="286.55"
+   y2="39.88"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line171" />
+<!-- Edge:    43   70 -->
+<line
+   x1="196.73"
+   y1="303.39"
+   x2="280.45"
+   y2="346.68"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line173" />
+<!-- Edge:    43   63 -->
+<line
+   x1="196.73"
+   y1="303.39"
+   x2="229.39"
+   y2="360.60"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line175" />
+<!-- Edge:    43   50 -->
+<line
+   x1="196.73"
+   y1="303.39"
+   x2="145.80"
+   y2="380.50"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line177" />
+<!-- Edge:    43   45 -->
+<line
+   x1="196.73"
+   y1="303.39"
+   x2="75.43"
+   y2="331.09"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line179" />
+<!-- Edge:    43   84 -->
+<line
+   x1="196.73"
+   y1="303.39"
+   x2="186.62"
+   y2="461.10"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line181" />
+<!-- Edge:    44   83 -->
+<line
+   x1="428.20"
+   y1="133.49"
+   x2="344.61"
+   y2="147.34"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line183" />
+<!-- Edge:    47   80 -->
+<line
+   x1="927.94"
+   y1="38.14"
+   x2="979.13"
+   y2="69.88"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line185" />
+<!-- Edge:    48   71 -->
+<line
+   x1="735.22"
+   y1="337.14"
+   x2="607.69"
+   y2="319.81"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line187" />
+<!-- Edge:    48   75 -->
+<line
+   x1="735.22"
+   y1="337.14"
+   x2="793.28"
+   y2="268.73"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line189" />
+<!-- Edge:    53   68 -->
+<line
+   x1="434.42"
+   y1="402.15"
+   x2="321.15"
+   y2="481.91"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line191" />
+<!-- Edge:    53   69 -->
+<line
+   x1="434.42"
+   y1="402.15"
+   x2="339.55"
+   y2="543.44"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line193" />
+<!-- Edge:    54   73 -->
+<line
+   x1="497.53"
+   y1="303.39"
+   x2="474.21"
+   y2="341.53"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line195" />
+<!-- Edge:    54   71 -->
+<line
+   x1="497.53"
+   y1="303.39"
+   x2="607.69"
+   y2="319.81"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line197" />
+<!-- Edge:    56   75 -->
+<line
+   x1="828.01"
+   y1="313.76"
+   x2="793.28"
+   y2="268.73"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line199" />
+<!-- Edge:    57   70 -->
+<line
+   x1="289.53"
+   y1="421.22"
+   x2="280.45"
+   y2="346.68"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line201" />
+<!-- Edge:    57   68 -->
+<line
+   x1="289.53"
+   y1="421.22"
+   x2="321.15"
+   y2="481.91"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line203" />
+<!-- Edge:    58   81 -->
+<line
+   x1="938.04"
+   y1="197.59"
+   x2="899.29"
+   y2="148.25"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line205" />
+<!-- Edge:    62   83 -->
+<line
+   x1="286.55"
+   y1="39.88"
+   x2="344.61"
+   y2="147.34"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line207" />
+<!-- Edge:    67   81 -->
+<line
+   x1="833.72"
+   y1="176.09"
+   x2="899.29"
+   y2="148.25"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line209" />
+<!-- Edge:    68   69 -->
+<line
+   x1="321.15"
+   y1="481.91"
+   x2="339.55"
+   y2="543.44"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line211" />
+<!-- Edge:    70   72 -->
+<line
+   x1="280.45"
+   y1="346.68"
+   x2="303.91"
+   y2="321.55"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line213" />
+<!-- Edge:    77   81 -->
+<line
+   x1="814.02"
+   y1="150.89"
+   x2="899.29"
+   y2="148.25"
+   style="stroke-width:2.00;stroke:rgb(0,112,145)"
+   id="line215" />
+
+<!-- Vertex:     1 -->
+<ellipse
+   cx="353.81"
+   cy="199.33"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse217" />
+<text
+   x="358.98"
+   y="218.65"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text219">ALLISON</text>
+
+<text
+   x="353.81"
+   y="206.00"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text221"> </text>
+
+<!-- Vertex:     2 -->
+<ellipse
+   cx="538.36"
+   cy="184.65"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(127,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse223" />
+<text
+   x="543.53"
+   y="203.97"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text225">ANDREAS</text>
+
+<text
+   x="538.36"
+   y="191.32"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text227">●</text>
+
+<!-- Vertex:     3 -->
+<ellipse
+   cx="141.78"
+   cy="233.16"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,0,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse229" />
+<text
+   x="146.96"
+   y="252.48"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text231">ANNIE</text>
+
+<text
+   x="141.78"
+   y="239.83"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text233"> </text>
+
+<!-- Vertex:     4 -->
+<ellipse
+   cx="1037.97"
+   cy="393.52"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(0,0,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse235" />
+<text
+   x="1043.14"
+   y="412.84"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text237">APRIL</text>
+
+<text
+   x="1037.97"
+   y="400.19"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(255, 255, 255);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text239"> </text>
+
+<!-- Vertex:     5 -->
+<ellipse
+   cx="302.88"
+   cy="215.83"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,0,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse241" />
+<text
+   x="308.05"
+   y="235.15"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text243">ASHES</text>
+
+<text
+   x="302.88"
+   y="222.50"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text245"> </text>
+
+<!-- Vertex:     6 -->
+<ellipse
+   cx="846.29"
+   cy="427.27"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,216,242);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse247" />
+<text
+   x="851.46"
+   y="446.59"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text249">BECKY</text>
+
+<text
+   x="846.29"
+   y="433.94"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text251"> </text>
+
+<!-- Vertex:     7 -->
+<ellipse
+   cx="230.43"
+   cy="227.94"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,0,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse253" />
+<text
+   x="235.61"
+   y="247.26"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text255">BETH</text>
+
+<text
+   x="230.43"
+   y="234.61"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text257"> </text>
+
+<!-- Vertex:     8 -->
+<ellipse
+   cx="935.06"
+   cy="91.87"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse259" />
+<text
+   x="940.24"
+   y="111.19"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text261">BLUE</text>
+
+<text
+   x="935.06"
+   y="98.54"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text263"> </text>
+
+<!-- Vertex:     9 -->
+<ellipse
+   cx="463.97"
+   cy="376.19"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,99,33);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse265" />
+<text
+   x="469.14"
+   y="395.51"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text267">BRYONY</text>
+
+<text
+   x="463.97"
+   y="382.85"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text269">●</text>
+
+<!-- Vertex:    10 -->
+<ellipse
+   cx="1207.22"
+   cy="495.76"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(0,0,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse271" />
+<text
+   x="1212.40"
+   y="515.08"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text273">BUMBLE_BEE</text>
+
+<text
+   x="1207.22"
+   y="502.43"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(255, 255, 255);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text275"> </text>
+
+<!-- Vertex:    11 -->
+<ellipse
+   cx="674.96"
+   cy="352.73"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(127,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse277" />
+<text
+   x="680.13"
+   y="372.05"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text279">CAMILLA</text>
+
+<text
+   x="674.96"
+   y="359.40"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text281">●</text>
+
+<!-- Vertex:    12 -->
+<ellipse
+   cx="337.48"
+   cy="26.03"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse283" />
+<text
+   x="342.65"
+   y="45.35"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text285">CAMMY</text>
+
+<text
+   x="337.48"
+   y="32.70"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text287"> </text>
+
+<!-- Vertex:    13 -->
+<ellipse
+   cx="1165.49"
+   cy="399.57"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(0,0,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse289" />
+<text
+   x="1170.67"
+   y="418.89"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text291">CAROL</text>
+
+<text
+   x="1165.49"
+   y="406.24"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(255, 255, 255);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text293"> </text>
+
+<!-- Vertex:    14 -->
+<ellipse
+   cx="1006.47"
+   cy="636.21"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(140,35,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse295" />
+<text
+   x="1011.65"
+   y="655.53"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text297">CARRIE</text>
+
+<text
+   x="1006.47"
+   y="642.88"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(255, 255, 255);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text299"> </text>
+
+<!-- Vertex:    15 -->
+<ellipse
+   cx="166.15"
+   cy="52.90"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse301" />
+<text
+   x="171.32"
+   y="72.21"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text303">CHARLOTTE</text>
+
+<text
+   x="166.15"
+   y="59.56"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text305"> </text>
+
+<!-- Vertex:    16 -->
+<ellipse
+   cx="1013.60"
+   cy="350.16"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(0,0,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse307" />
+<text
+   x="1018.78"
+   y="369.48"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text309">CHERUB</text>
+
+<text
+   x="1013.60"
+   y="356.82"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(255, 255, 255);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text311"> </text>
+
+<!-- Vertex:    17 -->
+<ellipse
+   cx="845.38"
+   cy="123.82"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse313" />
+<text
+   x="850.56"
+   y="143.14"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text315">CHIPPER</text>
+
+<text
+   x="845.38"
+   y="130.49"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text317"> </text>
+
+<!-- Vertex:    18 -->
+<ellipse
+   cx="353.81"
+   cy="104.89"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse319" />
+<text
+   x="358.98"
+   y="124.21"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text321">CHRISTINE</text>
+
+<text
+   x="353.81"
+   y="111.55"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text323"> </text>
+
+<!-- Vertex:    19 -->
+<ellipse
+   cx="669.90"
+   cy="290.37"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(127,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse325" />
+<text
+   x="675.08"
+   y="309.69"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text327">COVENANT_ONE</text>
+
+<text
+   x="669.90"
+   y="297.04"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text329">●</text>
+
+<!-- Vertex:    20 -->
+<ellipse
+   cx="587.74"
+   cy="245.69"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(127,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse331" />
+<text
+   x="592.91"
+   y="265.01"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text333">DARK_RIDER</text>
+
+<text
+   x="587.74"
+   y="252.35"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text335">●</text>
+
+<!-- Vertex:    21 -->
+<ellipse
+   cx="940.38"
+   cy="157.92"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse337" />
+<text
+   x="945.55"
+   y="177.24"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text339">DESTINY</text>
+
+<text
+   x="940.38"
+   y="164.59"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text341"> </text>
+
+<!-- Vertex:    22 -->
+<ellipse
+   cx="262.05"
+   cy="456.78"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,99,33);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse343" />
+<text
+   x="267.23"
+   y="476.10"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text345">DIBBY</text>
+
+<text
+   x="262.05"
+   y="463.45"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text347"> </text>
+
+<!-- Vertex:    23 -->
+<ellipse
+   cx="867.80"
+   cy="353.64"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,216,242);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse349" />
+<text
+   x="872.98"
+   y="372.96"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text351">DORDY</text>
+
+<text
+   x="867.80"
+   y="360.30"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text353">●</text>
+
+<!-- Vertex:    24 -->
+<ellipse
+   cx="685.20"
+   cy="234.00"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(127,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse355" />
+<text
+   x="690.37"
+   y="253.31"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text357">DRIVER</text>
+
+<text
+   x="685.20"
+   y="240.66"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text359">●</text>
+
+<!-- Vertex:    25 -->
+<ellipse
+   cx="917.70"
+   cy="237.48"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse361" />
+<text
+   x="922.87"
+   y="256.79"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text363">DUNSHINE</text>
+
+<text
+   x="917.70"
+   y="244.14"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text365"> </text>
+
+<!-- Vertex:    26 -->
+<ellipse
+   cx="1017.75"
+   cy="128.83"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse367" />
+<text
+   x="1022.93"
+   y="148.15"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text369">ELIZABETH</text>
+
+<text
+   x="1017.75"
+   y="135.50"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text371"> </text>
+
+<!-- Vertex:    27 -->
+<ellipse
+   cx="926.90"
+   cy="610.18"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(140,35,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse373" />
+<text
+   x="932.08"
+   y="629.50"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text375">EMILY_MAY</text>
+
+<text
+   x="926.90"
+   y="616.85"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(255, 255, 255);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text377"> </text>
+
+<!-- Vertex:    28 -->
+<ellipse
+   cx="413.94"
+   cy="33.83"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse379" />
+<text
+   x="419.12"
+   y="53.14"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text381">ENOUGH</text>
+
+<text
+   x="413.94"
+   y="40.49"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text383"> </text>
+
+<!-- Vertex:    29 -->
+<ellipse
+   cx="540.43"
+   cy="124.79"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(127,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse385" />
+<text
+   x="545.61"
+   y="144.11"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text387">ERICA</text>
+
+<text
+   x="540.43"
+   y="131.46"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text389">●</text>
+
+<!-- Vertex:    30 -->
+<ellipse
+   cx="1083.84"
+   cy="338.88"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(0,0,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse391" />
+<text
+   x="1089.02"
+   y="358.20"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text393">GEORGE</text>
+
+<text
+   x="1083.84"
+   y="345.55"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(255, 255, 255);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text395"> </text>
+
+<!-- Vertex:    31 -->
+<ellipse
+   cx="609.77"
+   cy="78.02"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(127,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse397" />
+<text
+   x="614.94"
+   y="97.34"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text399">GUARDIAN</text>
+
+<text
+   x="609.77"
+   y="84.69"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text401">●</text>
+
+<!-- Vertex:    32 -->
+<ellipse
+   cx="965.65"
+   cy="365.75"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(0,0,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse403" />
+<text
+   x="970.83"
+   y="385.07"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text405">HANDS</text>
+
+<text
+   x="965.65"
+   y="372.41"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(255, 255, 255);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text407"> </text>
+
+<!-- Vertex:    33 -->
+<ellipse
+   cx="710.73"
+   cy="533.90"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,216,242);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse409" />
+<text
+   x="715.90"
+   y="553.22"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text411">HONESTY</text>
+
+<text
+   x="710.73"
+   y="540.57"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text413"> </text>
+
+<!-- Vertex:    34 -->
+<ellipse
+   cx="106.01"
+   cy="293.85"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,0,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse415" />
+<text
+   x="111.19"
+   y="313.17"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text417">JANEY</text>
+
+<text
+   x="106.01"
+   y="300.52"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text419"> </text>
+
+<!-- Vertex:    35 -->
+<ellipse
+   cx="846.29"
+   cy="538.22"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,216,242);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse421" />
+<text
+   x="851.46"
+   y="557.54"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text423">JC</text>
+
+<text
+   x="846.29"
+   y="544.88"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text425"> </text>
+
+<!-- Vertex:    36 -->
+<ellipse
+   cx="1137.89"
+   cy="463.74"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(0,0,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse427" />
+<text
+   x="1143.06"
+   y="483.06"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text429">JENNY_WREN</text>
+
+<text
+   x="1137.89"
+   y="470.41"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(255, 255, 255);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text431"> </text>
+
+<!-- Vertex:    37 -->
+<ellipse
+   cx="903.44"
+   cy="458.52"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,216,242);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse433" />
+<text
+   x="908.62"
+   y="477.84"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text435">JETHRO</text>
+
+<text
+   x="903.44"
+   y="465.19"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text437"> </text>
+
+<!-- Vertex:    38 -->
+<ellipse
+   cx="1153.31"
+   cy="536.55"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(0,0,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse439" />
+<text
+   x="1158.49"
+   y="555.86"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text441">JEWELS</text>
+
+<text
+   x="1153.31"
+   y="543.21"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(255, 255, 255);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text443"> </text>
+
+<!-- Vertex:    39 -->
+<ellipse
+   cx="653.57"
+   cy="374.45"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(127,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse445" />
+<text
+   x="658.75"
+   y="393.77"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text447">JOHN_THE_GREATER</text>
+
+<text
+   x="653.57"
+   y="381.11"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text449">●</text>
+
+<!-- Vertex:    40 -->
+<ellipse
+   cx="551.58"
+   cy="388.30"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(127,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse451" />
+<text
+   x="556.75"
+   y="407.62"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text453">JOHN_THE_LESSER</text>
+
+<text
+   x="551.58"
+   y="394.97"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text455">●</text>
+
+<!-- Vertex:    41 -->
+<ellipse
+   cx="874.93"
+   cy="500.98"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,216,242);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse457" />
+<text
+   x="880.11"
+   y="520.30"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text459">JUDE</text>
+
+<text
+   x="874.93"
+   y="507.65"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text461"> </text>
+
+<!-- Vertex:    42 -->
+<ellipse
+   cx="377.27"
+   cy="70.23"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse463" />
+<text
+   x="382.44"
+   y="89.54"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text465">JULIE</text>
+
+<text
+   x="377.27"
+   y="76.89"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text467"> </text>
+
+<!-- Vertex:    43 -->
+<ellipse
+   cx="196.73"
+   cy="303.39"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,0,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse469" />
+<text
+   x="201.91"
+   y="322.70"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text471">JU_JU</text>
+
+<text
+   x="196.73"
+   y="310.05"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text473"> </text>
+
+<!-- Vertex:    44 -->
+<ellipse
+   cx="428.20"
+   cy="133.49"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse475" />
+<text
+   x="433.37"
+   y="152.81"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text477">KEITH</text>
+
+<text
+   x="428.20"
+   y="140.16"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text479"> </text>
+
+<!-- Vertex:    45 -->
+<ellipse
+   cx="75.43"
+   cy="331.09"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,0,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse481" />
+<text
+   x="80.60"
+   y="350.41"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text483">LITTLE_GIRL</text>
+
+<text
+   x="75.43"
+   y="337.75"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text485"> </text>
+
+<!-- Vertex:    46 -->
+<ellipse
+   cx="1033.95"
+   cy="675.19"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(140,35,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse487" />
+<text
+   x="1039.13"
+   y="694.51"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text489">LITTLE_JOEY</text>
+
+<text
+   x="1033.95"
+   y="681.86"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(255, 255, 255);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text491"> </text>
+
+<!-- Vertex:    47 -->
+<ellipse
+   cx="927.94"
+   cy="38.14"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse493" />
+<text
+   x="933.11"
+   y="57.46"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text495">LITTLE_JULIE</text>
+
+<text
+   x="927.94"
+   y="44.81"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text497"> </text>
+
+<!-- Vertex:    48 -->
+<ellipse
+   cx="735.22"
+   cy="337.14"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(127,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse499" />
+<text
+   x="740.40"
+   y="356.46"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text501">MAGICK</text>
+
+<text
+   x="735.22"
+   y="343.81"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text503">●</text>
+
+<!-- Vertex:    49 -->
+<ellipse
+   cx="768.79"
+   cy="489.71"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,216,242);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse505" />
+<text
+   x="773.96"
+   y="509.02"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text507">MARY</text>
+
+<text
+   x="768.79"
+   y="496.37"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text509"> </text>
+
+<!-- Vertex:    50 -->
+<ellipse
+   cx="145.80"
+   cy="380.50"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,0,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse511" />
+<text
+   x="150.98"
+   y="399.82"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text513">MEG</text>
+
+<text
+   x="145.80"
+   y="387.17"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text515"> </text>
+
+<!-- Vertex:    51 -->
+<ellipse
+   cx="959.56"
+   cy="299.91"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse517" />
+<text
+   x="964.73"
+   y="319.22"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text519">MIA</text>
+
+<text
+   x="959.56"
+   y="306.57"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text521"> </text>
+
+<!-- Vertex:    52 -->
+<ellipse
+   cx="782.14"
+   cy="596.33"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,216,242);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse523" />
+<text
+   x="787.31"
+   y="615.65"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text525">MICHELLE</text>
+
+<text
+   x="782.14"
+   y="603.00"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text527"> </text>
+
+<!-- Vertex:    53 -->
+<ellipse
+   cx="434.42"
+   cy="402.15"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,99,33);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse529" />
+<text
+   x="439.60"
+   y="421.47"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text531">MILLIE</text>
+
+<text
+   x="434.42"
+   y="408.82"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text533">●</text>
+
+<!-- Vertex:    54 -->
+<ellipse
+   cx="497.53"
+   cy="303.39"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,99,33);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse535" />
+<text
+   x="502.71"
+   y="322.70"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text537">MIRANDA</text>
+
+<text
+   x="497.53"
+   y="310.05"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text539">●</text>
+
+<!-- Vertex:    55 -->
+<ellipse
+   cx="634.26"
+   cy="181.17"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(127,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse541" />
+<text
+   x="639.44"
+   y="200.49"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text543">MORNING_STAR</text>
+
+<text
+   x="634.26"
+   y="187.84"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text545">●</text>
+
+<!-- Vertex:    56 -->
+<ellipse
+   cx="828.01"
+   cy="313.76"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,216,242);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse547" />
+<text
+   x="833.19"
+   y="333.08"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text549">NAOMI</text>
+
+<text
+   x="828.01"
+   y="320.42"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text551">●</text>
+
+<!-- Vertex:    57 -->
+<ellipse
+   cx="289.53"
+   cy="421.22"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,99,33);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse553" />
+<text
+   x="294.70"
+   y="440.54"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text555">NIGHT_TIME</text>
+
+<text
+   x="289.53"
+   y="427.89"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text557"> </text>
+
+<!-- Vertex:    58 -->
+<ellipse
+   cx="938.04"
+   cy="197.59"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse559" />
+<text
+   x="943.22"
+   y="216.91"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text561">NODDY</text>
+
+<text
+   x="938.04"
+   y="204.26"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text563"> </text>
+
+<!-- Vertex:    59 -->
+<ellipse
+   cx="855.49"
+   cy="644.01"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(140,35,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse565" />
+<text
+   x="860.67"
+   y="663.33"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text567">NOTHING</text>
+
+<text
+   x="855.49"
+   y="650.68"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(255, 255, 255);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text569"> </text>
+
+<!-- Vertex:    60 -->
+<ellipse
+   cx="940.12"
+   cy="669.13"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(140,35,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse571" />
+<text
+   x="945.29"
+   y="688.45"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text573">OLD_NELL</text>
+
+<text
+   x="940.12"
+   y="675.80"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(255, 255, 255);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text575"> </text>
+
+<!-- Vertex:    61 -->
+<ellipse
+   cx="893.20"
+   cy="393.52"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,216,242);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse577" />
+<text
+   x="898.38"
+   y="412.84"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text579">PANDA</text>
+
+<text
+   x="893.20"
+   y="400.19"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text581"> </text>
+
+<!-- Vertex:    62 -->
+<ellipse
+   cx="286.55"
+   cy="39.88"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse583" />
+<text
+   x="291.72"
+   y="59.20"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text585">PATRICIA</text>
+
+<text
+   x="286.55"
+   y="46.55"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text587"> </text>
+
+<!-- Vertex:    63 -->
+<ellipse
+   cx="229.39"
+   cy="360.60"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,0,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse589" />
+<text
+   x="234.57"
+   y="379.92"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text591">PEGGY</text>
+
+<text
+   x="229.39"
+   y="367.26"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text593"> </text>
+
+<!-- Vertex:    64 -->
+<ellipse
+   cx="953.34"
+   cy="336.31"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(0,0,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse595" />
+<text
+   x="958.51"
+   y="355.63"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text597">PIPPA</text>
+
+<text
+   x="953.34"
+   y="342.97"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(255, 255, 255);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text599"> </text>
+
+<!-- Vertex:    65 -->
+<ellipse
+   cx="168.22"
+   cy="182.00"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,0,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse601" />
+<text
+   x="173.40"
+   y="201.32"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text603">POLLY</text>
+
+<text
+   x="168.22"
+   y="188.67"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text605"> </text>
+
+<!-- Vertex:    66 -->
+<ellipse
+   cx="1011.53"
+   cy="437.71"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(0,0,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse607" />
+<text
+   x="1016.70"
+   y="457.03"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text609">QUIET_VICTORIA</text>
+
+<text
+   x="1011.53"
+   y="444.38"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(255, 255, 255);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text611"> </text>
+
+<!-- Vertex:    67 -->
+<ellipse
+   cx="833.72"
+   cy="176.09"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse613" />
+<text
+   x="838.89"
+   y="195.41"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text615">RED</text>
+
+<text
+   x="833.72"
+   y="182.75"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text617"> </text>
+
+<!-- Vertex:    68 -->
+<ellipse
+   cx="321.15"
+   cy="481.91"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,99,33);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse619" />
+<text
+   x="326.33"
+   y="501.23"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text621">REJECT</text>
+
+<text
+   x="321.15"
+   y="488.58"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text623"> </text>
+
+<!-- Vertex:    69 -->
+<ellipse
+   cx="339.55"
+   cy="543.44"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,99,33);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse625" />
+<text
+   x="344.73"
+   y="562.76"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text627">ROSY</text>
+
+<text
+   x="339.55"
+   y="550.10"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text629"> </text>
+
+<!-- Vertex:    70 -->
+<ellipse
+   cx="280.45"
+   cy="346.68"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,99,33);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse631" />
+<text
+   x="285.63"
+   y="366.00"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text633">SARAH</text>
+
+<text
+   x="280.45"
+   y="353.34"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text635"> </text>
+
+<!-- Vertex:    71 -->
+<ellipse
+   cx="607.69"
+   cy="319.81"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(127,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse637" />
+<text
+   x="612.87"
+   y="339.13"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text639">SECRET</text>
+
+<text
+   x="607.69"
+   y="326.48"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text641">●</text>
+
+<!-- Vertex:    72 -->
+<ellipse
+   cx="303.91"
+   cy="321.55"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,99,33);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse643" />
+<text
+   x="309.09"
+   y="340.87"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text645">SKYE</text>
+
+<text
+   x="303.91"
+   y="328.22"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text647"> </text>
+
+<!-- Vertex:    73 -->
+<ellipse
+   cx="474.21"
+   cy="341.53"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,99,33);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse649" />
+<text
+   x="479.38"
+   y="360.85"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text651">STEPHANIE</text>
+
+<text
+   x="474.21"
+   y="348.19"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text653">●</text>
+
+<!-- Vertex:    74 -->
+<ellipse
+   cx="803.52"
+   cy="468.06"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,216,242);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse655" />
+<text
+   x="808.70"
+   y="487.38"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text657">STORMIE</text>
+
+<text
+   x="803.52"
+   y="474.73"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text659"> </text>
+
+<!-- Vertex:    75 -->
+<ellipse
+   cx="793.28"
+   cy="268.73"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(127,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse661" />
+<text
+   x="798.46"
+   y="288.04"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text663">TEMPLE_KEEPER</text>
+
+<text
+   x="793.28"
+   y="275.39"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text665">●</text>
+
+<!-- Vertex:    76 -->
+<ellipse
+   cx="761.66"
+   cy="435.97"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,216,242);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse667" />
+<text
+   x="766.84"
+   y="455.29"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text669">THE_JUDGE</text>
+
+<text
+   x="761.66"
+   y="442.64"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text671"> </text>
+
+<!-- Vertex:    77 -->
+<ellipse
+   cx="814.02"
+   cy="150.89"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse673" />
+<text
+   x="819.19"
+   y="170.21"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text675">TIC_TAC</text>
+
+<text
+   x="814.02"
+   y="157.56"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text677"> </text>
+
+<!-- Vertex:    78 -->
+<ellipse
+   cx="733.15"
+   cy="568.56"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,216,242);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse679" />
+<text
+   x="738.32"
+   y="587.88"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text681">TITCH</text>
+
+<text
+   x="733.15"
+   y="575.23"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text683"> </text>
+
+<!-- Vertex:    79 -->
+<ellipse
+   cx="1094.08"
+   cy="390.04"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(0,0,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse685" />
+<text
+   x="1099.26"
+   y="409.36"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text687">TWINKLE</text>
+
+<text
+   x="1094.08"
+   y="396.71"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(255, 255, 255);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text689"> </text>
+
+<!-- Vertex:    80 -->
+<ellipse
+   cx="979.13"
+   cy="69.88"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse691" />
+<text
+   x="984.30"
+   y="89.20"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text693">U_1</text>
+
+<text
+   x="979.13"
+   y="76.55"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text695"> </text>
+
+<!-- Vertex:    81 -->
+<ellipse
+   cx="899.29"
+   cy="148.25"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse697" />
+<text
+   x="904.47"
+   y="167.57"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text699">U_2</text>
+
+<text
+   x="899.29"
+   y="154.91"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text701"> </text>
+
+<!-- Vertex:    82 -->
+<ellipse
+   cx="532.27"
+   cy="66.75"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(127,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse703" />
+<text
+   x="537.44"
+   y="86.06"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text705">U_3</text>
+
+<text
+   x="532.27"
+   y="73.41"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text707">●</text>
+
+<!-- Vertex:    83 -->
+<ellipse
+   cx="344.61"
+   cy="147.34"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,255,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse709" />
+<text
+   x="349.78"
+   y="166.66"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text711">VANESSA</text>
+
+<text
+   x="344.61"
+   y="154.01"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text713"> </text>
+
+<!-- Vertex:    84 -->
+<ellipse
+   cx="186.62"
+   cy="461.10"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(255,0,0);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse715" />
+<text
+   x="191.80"
+   y="480.42"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text717">WENDY</text>
+
+<text
+   x="186.62"
+   y="467.77"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(173, 0, 0);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text719"> </text>
+
+<!-- Vertex:    85 -->
+<ellipse
+   cx="984.96"
+   cy="574.69"
+   rx="10.00"
+   ry="10.00"
+   style="fill:rgb(140,35,255);stroke:rgb(102,0,0);stroke-width:0.50;"
+   id="ellipse721" />
+<text
+   x="990.14"
+   y="594.01"
+   style="font-family:sans-serif;font-weight:normal;font-size:13.33333333px;fill:rgb(173, 0, 0);-inkscape-font-specification:'sans-serif, Normal';font-style:normal;font-stretch:normal;font-variant:normal;text-anchor:start;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text723">WHISPER</text>
+
+<text
+   x="984.96"
+   y="581.35"
+   style="font-family:sans-serif;font-size:13.33333333px;fill:rgb(255, 255, 255);text-anchor:start;-inkscape-font-specification:'sans-serif, Normal';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;text-align:start;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;"
+   id="text725"> </text>
+
+</g>         <!-- Layer Network -->
+</svg>
