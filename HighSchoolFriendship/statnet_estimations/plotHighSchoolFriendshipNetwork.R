@@ -1,0 +1,32 @@
+#!/usr/bin/env Rscript
+###
+### File:    plotHighSchoolFriendshipNetwork.R
+### Author:  Alex Stivala
+### Created: September 2019
+###
+### Make visualization of high schol friendship network
+###
+###
+### Output is to file
+###   'highschoolfriendship_network.eps'
+### WARNING: overwrites output files if they exist
+###
+
+
+source('load_highschoolfriendship_network.R')
+
+
+g <- load_highschoolfriendship_network()
+
+library(intergraph)
+library(statnet)
+gn <-asNetwork(g)
+summary(gn)
+postscript('highschoolfriendship_network.eps')
+plot(gn, vertex.col = ifelse(get.vertex.attribute(gn, "sex")=="F", "pink",
+                        ifelse(get.vertex.attribute(gn, "sex")=="M", "blue",
+                          "gray")),
+      displaylabels=FALSE)
+
+dev.off()
+
