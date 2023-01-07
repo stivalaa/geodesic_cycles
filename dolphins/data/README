@@ -1,0 +1,21 @@
+Undirected social network of bottlenet dolphins, from
+http://konect.uni-koblenz.de/networks/dolphins
+
+originally described in the paper
+
+Lusseau, D., Schneider, K., Boisseau, O. J., Haase, P., Slooten, E., & Dawson, S. M. (2003). The bottlenose dolphin community of Doubtful Sound features a large proportion of long-lasting associations. Behavioral Ecology and Sociobiology, 54(4), 396-405.
+
+
+dolphins.tar.bz2 downloaded from http://konect.uni-koblenz.de/downloads/tsv/dolphins.tar.bz2
+
+dolphins.zip downloaded from http://www-personal.umich.edu/~mejn/netdata/
+
+The original GML source from Mark Newman's website 
+http://www-personal.umich.edu/~mejn/netdata/
+
+and the TSV file from the KONECT website
+http://konect.uni-koblenz.de/networks/dolphins
+
+
+ADS
+Tue, Jan 02, 2018  3:10:03 PM

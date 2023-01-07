@@ -1,0 +1,74 @@
+Coding and analysis of the "delusional social network" described
+(and analyzed with dk-series in Martin 2017) in:
+
+	David, Anthony, Roisin Kemp, Ladé Smith and Thomas Fahy. 1996.  "Split
+	Minds: Multiple Personality and Schizophrenia." Pp. 122-146 in Method
+	in Madness: Case Studies in Neuropsychiatry, edited by Peter
+	W. Halligan and John C. Marshall.
+
+	Martin,J.L.(2017).The Structure of Node and Edge Generation in a
+	Delusional Social Network. Journal of Social Structure, 18(1),1-21.
+	doi:10.21307/joss-2018-005.
+
+
+The figures in David et al. (1996) and reproduced in Martin (2018) are
+hand-drawn by "Patricia"; data here I coded manually from the figures
+in the original.
+
+All networks are undirected, coded initially as adjacency lists
+for ease of transcription from figures. Whitespace delimited,
+one line for each node, the first field is the name of the node,
+subsequent fields on the line are nodes adjacent to that node.
+Lines are in alphabetical order (by the first field i.e. the node whose
+neighbours are listed) and edges are not repeated (i.e. entries are only
+present from lower to higher alphabetical order; the reverse is implied as
+undirected). Order (after the first field) in a line is not significant.
+
+patricia1990_adjlist.txt
+               adjacency lists for the 1990 network coded
+               from David et al. (1996) Fig. 7.1(a) (p. 136). 14 nodes
+               and 18 edges.
+
+patricia1990_nodelist.txt
+               just the list of node names from the 1990 network (above).
+
+patricia1992_adjlist.txt
+               adjacency lists fro the 1992 network coded from David et al.
+               (1996) Fig 7.1(b) (p. 137). For nodes with no name,
+               U_1, U_2, etc. is used. 85 nodes.
+
+patricia1992_nodelist.txt
+               just the list of node names from the 1992 network (above)
+
+patricia1992_attributes.txt
+               whitespace delimited attributes (with header)
+               integrated is 0/1 for shaded ("integrated alters")
+               christian is 0/1 for asterisk "Christian alters")
+               number (float) is the number (age?) on some nodes or NA
+               sphere is 0/1 for in the 'sphere of the blue flame'
+
+patricia1993_adjlist.txt
+               adjacency lists fro the 1992 network coded from David et al.
+               (1996) Fig 7.1(c) (p. 138). For new nodes with no name,
+               Z_1, Z_2, etc. is used. U_2 is the remaining unnamed node
+               from 1992; U_1 is now named MANDY and U_3 is now named LOU_LOU.
+
+patricia1993_nodelist.txt
+               just the list of node names from the 1993 network (above)
+
+patricia1993_attributes.txt
+               whitespace delimited attributes (with header)
+               integrated is 0/1 for shaded ("integrated alters")
+               christian is 0/1 for asterisk "Christian alters")
+               number (float) is the number (age?) on some nodes or NA
+               sphere is 0/1 for in the 'sphere of the blue flame'
+               behind is 0/1 for the component marked 'behind' on drawing.
+               Note that 'integrated' and 'christian' and 'number' are
+               from the 1992 diagram (where nodes with same name are on both)
+               as the 1993 diagram does not have these attributes.
+
+
+
+ADS
+Tue, Jul  9, 2019 10:42:01 AM
+Tue, Sep  3, 2019  3:26:54 PM
