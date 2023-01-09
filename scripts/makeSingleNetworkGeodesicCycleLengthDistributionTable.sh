@@ -4,7 +4,7 @@
 # Author:  Alex Stivala
 # Created: December 2022
 #
-# Run the CYPATH and filteryclesGeodesic.R programs to get geodesic
+# Run the CYPATH and filteryclesGeodesic.py programs to get geodesic
 # length distributions from a single network
 # for reading in R and plotting etc.
 #
@@ -38,7 +38,7 @@ tmpfile=`mktemp`
 # convert to format for CYPATH in tmpfile
 transgrh.pl < ${edgelistfile} > ${tmpfile}
 
-## run CYPATH and filterCyclesGeodesic.R to get geodesic cycles and
+## run CYPATH and filterCyclesGeodesic.py to get geodesic cycles and
 ## use  uses awk, sort, and uniq to get counts of each geodesic cycle length
 ## Note capital C on cypath to get chordless cycles only,
 ## since a geodesic cycle must be chordless. The "-, ," option sets the
@@ -46,7 +46,7 @@ transgrh.pl < ${edgelistfile} > ${tmpfile}
 ## so that summary (cycle length counts) information is removed (there is 
 ## a q option documented to do this, but appears not to be implemented).
 ##
-cypath C -, , ${tmpfile} - | fgrep , | filterCyclesGeodesic.R  ${edgelistfile}  | awk -F, '{print NF}' | sort -n | uniq -c | awk '{print $2,$1}'
+cypath C -, , ${tmpfile} - | fgrep , | filterCyclesGeodesic.py  ${edgelistfile}  | awk -F, '{print NF}' | sort -n | uniq -c | awk '{print $2,$1}'
 
 rm ${tmpfile}
 
