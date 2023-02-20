@@ -1,0 +1,27 @@
+Star Wars charcter interaction, all characters, "merged" meaning
+Anakin and Darth Vader are the same node. See:
+
+http://evelinag.com/blog/2015/12-15-star-wars-social-network/
+
+
+Note citation:
+
+If you use the dataset in your own work, please cite it via Zenodo:
+
+Evelina Gabasova. (2016). Star Wars social network (Version 1.0.1) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.1411479
+
+@misc{evelina_gabasova_2016_1411479,
+  author       = {Evelina Gabasova},
+  title        = {Star Wars social network},
+  month        = jan,
+  year         = 2016,
+  doi          = {10.5281/zenodo.1411479},
+  url          = {https://doi.org/10.5281/zenodo.1411479}
+}
+
+Data downloaded from above (zenodo)  http://doi.org/10.5281/zenodo.1411479
+on 12 July 2019 (version 1.0.1 dated Jan 25, 2016).
+
+ADS
+Fri, Jul 12, 2019 11:24:36 AM
+
