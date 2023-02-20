@@ -63,18 +63,23 @@ ptheme <-  theme(legend.position = 'none')
 obs_dat <- read.table(obs_tablefilename, header=TRUE)
 
 ergm_files <- Sys.glob(ergmtables_glob)
-cat('Reading ERGM data from ', ergm_files, '\n')
-ergm_dat <- data.frame()
-for (ergmfile in ergm_files) {
-  if (length(ergm_files) == 1) {
-    ergmname <- 'ERGM'
-  } else {
-    ergmname <- sub("model([0-9]+)_.+", "ERGM \\1", basename(ergmfile))
+if (length(ergm_files) == 0) {
+  cat('No ERGM data\n')
+  ergm_dat <- data.frame()
+} else {
+  cat('Reading ERGM data from ', ergm_files, '\n')
+  ergm_dat <- data.frame()
+  for (ergmfile in ergm_files) {
+    if (length(ergm_files) == 1) {
+      ergmname <- 'ERGM'
+    } else {
+      ergmname <- sub("model([0-9]+)_.+", "ERGM \\1", basename(ergmfile))
+    }
+    print(ergmname)
+    ergmtab <- read.table(ergmfile, header=TRUE)
+    ergmtab$method = ergmname
+    ergm_dat <- rbind(ergm_dat, ergmtab)
   }
-  print(ergmname)
-  ergmtab <- read.table(ergmfile, header=TRUE)
-  ergmtab$method = ergmname
-  ergm_dat <- rbind(ergm_dat, ergmtab)
 }
 
 
