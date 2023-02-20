@@ -1,0 +1,19 @@
+Data and models for character coappearance network from Les Miserables
+from Mark Newman's website http://www-personal.umich.edu/~mejn/netdata/
+
+Citation:
+
+M. E. J. Newman and M. Girvan, Finding and evaluating community
+structure in networks, Physical Review E 69, 026113 (2004).
+
+http://www-personal.umich.edu/~mejn/netdata/lesmis.zip
+
+Les Miserables: coappearance network of characters in the novel Les
+Miserables. Please cite D. E. Knuth, The Stanford GraphBase: A
+Platform for Combinatorial Computing, Addison-Wesley, Reading, MA
+(1993).
+
+Downloaded 10 July 2019
+
+ADS
+Wed, Jul 10, 2019  3:00:38 PM

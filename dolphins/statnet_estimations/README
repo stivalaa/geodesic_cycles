@@ -1,0 +1,6 @@
+Note that although atomic and convex cycles OK, cannot compute
+length distribution for cycles (not convex or atomic) as times out on
+first computation - must be far too many to be practical.
+
+ADS
+Sat Aug 24 03:29:02 CEST 2019
