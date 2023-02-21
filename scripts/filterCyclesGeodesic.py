@@ -6,7 +6,7 @@
 # Created: December 2022
 #
 ##############################################################################
-"""Usage: filterCyclesGeodesic.R graph_egelist.txt
+"""Usage: filterCyclesGeodesic.py graph_egelist.txt
   
   
    Read graph in edgelist format (nodes must be 0..N-1) from graph_edgelist.txt
@@ -26,7 +26,7 @@
   
    transgrh.pl < fourcycle3_bipartite_edgelist.txt  > fourcycle3_bipartite.grh
   
-   cypath C -, , fourcycle3_bipartite.grh  - | fgrep  , | ./filterCyclesGeodesic.R  fourcycle3_bipartite_edgelist.txt 
+   cypath C -, , fourcycle3_bipartite.grh  - | fgrep  , | ./filterCyclesGeodesic.py  fourcycle3_bipartite_edgelist.txt 
   
    Note in the above example, capital C on cypath to get chordless cycles only,
    since a geodesic cycle must be chordless. The "-, ," option sets the
@@ -38,7 +38,7 @@
    node numbers are converted to 1-based, not 0-based as in input), 
    so for example you can get a histogram of geodesic cycle lengths with:
   
-   cypath C -, , fourcycle3_bipartite.grh  - | fgrep  , | ./filterCyclesGeodesic.R  fourcycle3_bipartite_edgelist.txt  | awk -F, '{print NF}' | sort -n | uniq -c | awk '{print $2,$1}'
+   cypath C -, , fourcycle3_bipartite.grh  - | fgrep  , | ./filterCyclesGeodesic.py  fourcycle3_bipartite_edgelist.txt  | awk -F, '{print NF}' | sort -n | uniq -c | awk '{print $2,$1}'
   
    which uses awk, sort, and uniq to get output like this:
    4 3
