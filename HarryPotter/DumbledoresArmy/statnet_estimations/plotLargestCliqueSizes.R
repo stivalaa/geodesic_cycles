@@ -90,7 +90,7 @@ p <- p + ptheme
 p <- p + theme(axis.text = element_text(size = 12))
 p <- p + theme(axis.title = element_text(size = 12))
 p <- p + theme(axis.text.x = element_text(colour = 'black'))
-p <- p + ptheme + xlab('Simulation model')
+p <- p + ptheme + xlab('Simulation method')
 p <- p + ylab('Size of largest clique')
 p <- p + ylim(c(0, max_maxclique))
 p <- p + geom_hline(aes(yintercept = obs_maxclique), colour = obscolour,linetype=2)
