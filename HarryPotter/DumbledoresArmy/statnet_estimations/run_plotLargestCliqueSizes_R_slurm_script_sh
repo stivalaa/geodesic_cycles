@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#SBATCH --job-name="plot_max_clique_sizes"
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=0-00:10:00
+#SBATCH --output=plot_max_clique_sizes-%j.out
+#SBATCH --error=plot_max_clique_sizes-%j.err
+
+uname -a
+echo Started at `date`
+
+module purge
+module load r
+
+time Rscript plotLargestCliqueSizes.R
+
+echo Ended at `date` 
