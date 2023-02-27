@@ -4,6 +4,8 @@
 # Author:  Alex Stivala
 # Created: January 2014
 #
+# Updated February 2023 for ergm 4.3.2 output format.
+#
 # Read last estimation result from a Statnet MLE
 # estimation output file and convert to LaTeX table.
 #
@@ -30,23 +32,30 @@ echo "% At: " `date`
 echo "% On: " `uname -a`
 
 # get line number of start of last Estimation result
-lineno=`grep -n 'MLE Results:' $estimationresults | cut -d: -f1 | tail -1`
-
+lineno=`grep -n 'Results:' $estimationresults | cut -d: -f1 | tail -1`
+# there is now a blank line after ... Results line so add 1
+lineno=`expr $lineno + 1`
 # write last estimation results to tmpfile (start at line no, end on '---'),
-# alos convert PNet effect names into same as used in Snowball PNet and sort
-awk -vlineno=$lineno 'NR > lineno+1' $estimationresults | sed -n '0,/^---/p' | head -n-1 |  sed 's/edges/Edge/;s/altkstar/K-Star(2.00)/;s/gwdsp.fixed.0.693[0-9]*/A2P-T(2.00)~\\small{[gwdsp(ln(2))]}/;s/gwesp.fixed.0.693[0-9]*/AKT-T(2.00)~\\small{[gwesp(ln(2))]}/' | sed 's/_/\\_/g' | sed 's/< \([0][.][0-9]*\)/<\1/g' | sed 's/< *\([0-9]*\)e[-]\([0-9]*\)/<\1\\times10\^{-\2}/g'  | sort -k1,1 >  $tmpfile
+# also convert scientific notation to latex format and sort
+awk -vlineno=$lineno 'NR > lineno+1' $estimationresults | sed -n '0,/^---/p' | head -n-1 | sed 's/_/\\_/g' | sed 's/< \([0][.][0-9]*\)/<\1/g' | sed 's/< *\([0-9]*\)e[-]\([0-9]*\)/<\1\\times10\^{-\2}/g'  | sort -k1,1 >  $tmpfile
 
-
+# also write AIC and BIC, parsed from e.g.:
+# AIC: 90.61    BIC: 98.14    (Smaller is better.)
+aic=`grep -w AIC ${estimationresults} | awk '{print $2}'`
+bic=`grep -w AIC ${estimationresults} | awk '{print $4}'`
 
 
 #format into LaTeX table with 4 digits on floating point numbers
 
 echo '\begin{tabular}{lrrrl}'
 echo '\hline'  
-echo 'Effect & Estimate & std. errror & p-value & \\'
+echo 'Effect & Estimate & std. error & p-value & \\'
 echo '\hline'  
-awk '{printf("%s & $%.4f$ & $%.4f$ & $%s$ &  %s \\\\\n",$1,$2,$3,$5,$6)}' $tmpfile
-echo '\hline'  
+awk '{printf("%s & $%.4f$ & $%.4f$ & $%s$ &  %s \\\\\n",$1,$2,$3,$6,$7)}' $tmpfile
+echo '\hline'
+# printf 'AIC & $%.2f$ &  &  &   \\\\\n' ${aic}
+# printf 'BIC & $%.2f$ &  &  &   \\\\\n' ${bic}
+# echo '\hline'  
 echo '\end{tabular}'
 
 
