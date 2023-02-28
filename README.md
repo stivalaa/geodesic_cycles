@@ -23,3 +23,6 @@ Stivala, A. 2019. "The hollow ring of randomness: Large worlds in small data". F
 Stivala, A. 2020. "Geodesic cycle length distributions in delusional and other social networks". Journal of Social Structure, 21(1):35-76. https://doi.org/10.21307/joss-2020-002
 
 Stivala, A. 2020. "Reply to “Comment on Geodesic Cycle Length Distributions in Delusional and Other Social Networks”" Journal of Social Structure 21(1):94-106. https://doi.org/10.21307/joss-2020-004
+
+Stivala, A. 2023. "Geodesic cycle length distributions in fictional character networks". Unpublished manuscript.
+
