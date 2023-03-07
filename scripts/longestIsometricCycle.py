@@ -13,8 +13,8 @@
        -d : debug. debug output to stderr
   
    Read graph in edgelist format (nodes must be 0..N-1) from graph_edgelist.txt
-   and output length of the longest isometric cycle, using the
-   algorithm (Algorithm 4.1, "LIC - Longest Isometric Cycle" from:
+   and output length of the longest isometric cycle, using the Lokshtanov
+   algorithm (Algorithm 4.1, "LIC - Longest Isometric Cycle") from:
 
       Lokshtanov, D. (2009). Finding the longest isometric cycle in a
       graph. Discrete Applied Mathematics, 157(12), 2670-2674.
@@ -31,6 +31,8 @@
      Stivala, A. (2023). Geodesic cycle length distributions in
      fictional character networks.  [Unpublished manuscript.]
 
+Developed with python/igraph 0.9.9 under Python 3.9.10 (Cygwin Windows 10) and
+python/igraph 0.10.2 under Python 3.9.0 (Linux CentOS 8.2.2004)
 """
 import sys
 import getopt
@@ -86,7 +88,12 @@ def graphPower(G, k, d_G = None):
     for u in range(G.vcount()):
         for v in range(G.vcount()):
             if u != v and d_G[u][v] <= k and not powerGk.are_connected(u, v):
-                powerGk.add_edge(u,v)
+                ## in the absence of more efficient way (see above TODO)
+                ## add_edges() is supposedly more efficient than add_edge()
+                ## even for a single edge since we don't need the
+                ## returned Edge object here
+                ## https://igraph.org/python/doc/api/igraph.Graph.html#add_edge
+                powerGk.add_edges([(u,v)])
     return powerGk
 
 
