@@ -172,6 +172,7 @@ def longestIsometricCycle(G, verbose = False, debug = False):
                             if k % 2 == 0: # even k case
                                 sys.stderr.write("even k = %d: u = %d, v = %d, x = %d, d_Gk[(u,v)][(v,x)] = %d\n" % (k, u, v, x, sp))
                                 assert sp == k / 2
+                                assert u == x
                             else: # odd k case
                                 sys.stderr.write("odd k = %d: u = %d, v = %d, x = %d, d_Gk[(u,v)][(v,x)] = %d\n" % (k, u, v, x, sp))
                                 assert sp == k // 2
