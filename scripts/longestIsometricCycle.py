@@ -132,6 +132,8 @@ def longestIsometricCycle(G, verbose = False):
         ## Build the auxiliary graph Gk
         Vk = [(u, v) for u in range(N) for v in range(N)
               if d_G[u][v] == k // 2] # // operator is floor division
+        if verbose:
+            sys.stderr.write('Vk = %s\n' % str(Vk))
         # convert Vk to dict for fast testing of elements present in it
         Vk = dict.fromkeys(Vk)
         Ek = [((u, v), (w, x)) for u in range(N) for v in range(N)
@@ -144,7 +146,7 @@ def longestIsometricCycle(G, verbose = False):
         Gk.add_vertices([str(t) for t in Vk])
         Gk.add_edges([(str(t1), str(t2)) for (t1, t2) in Ek])
         ## compute the graph power Gk^floor(k/2)
-        Gkpowerk2 = graphPower(G, k//2, d_G)
+        Gkpowerk2 = graphPower(Gk, k//2, d_G)
         for u in range(N):
             for v in range(N):
                 for x in range(N):
