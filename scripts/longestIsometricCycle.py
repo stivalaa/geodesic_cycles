@@ -66,7 +66,7 @@ def graphPower(G, k, d_G):
 
     This is a simple inefficient implementation. As noted in
     Lokshtanov (2009) it can more efficiently be implemented using
-    matrix multiplication with the "folklore algorihtm for computing graph
+    matrix multiplication with the "folklore algorithm for computing graph
     powers" [pp. 2672-2673].
     """
     powerGk = G.copy()
@@ -75,8 +75,69 @@ def graphPower(G, k, d_G):
             if u != v and d_G[u][v] <= k and not powerGk.are_connected(u, v):
                 powerGk.add_edges([(u,v)])
     return powerGk
+
+
+
+def isInMk(Gk, uvtuple, testtuple):
+    """ isInMk - auxiliary function for longestIsomeric cycle
+
+    Parameters:
+       Gk        - the Gk auxiliary graph in longestIsometriCycle
+       uvtuple   - tuple (u, v) constructing Mk and M'k
+       testtuple - tuple (x, y) to test for membership in Mk(u,v)
+
+    Returns:
+       True if testtuple is in the set M(uvtuple) else False
     
+    """
+    sys.stderr.write("TODO\n")
+    return False
+
+
+def longestIsometricCycle(G):
+    """longestIsometricCycle - length of the longest isometric cycle in G
+  
+    Paramaters:
+       G       - undirected graph object
    
+    Returns:
+       length of the longest isometric cycle in G
+
+    Return the length of the longest isometric cycle, using the
+    algorithm (Algorithm 4.1, "LIC - Longest Isometric Cycle" from:
+
+      Lokshtanov, D. (2009). Finding the longest isometric cycle in a
+      graph. Discrete Applied Mathematics, 157(12), 2670-2674.
+    
+    """
+    ans = 0
+    N = G.vcount()
+    d_G = G.shortest_paths()
+    if G.is_tree():
+        return ans
+    for k in range(3, N):
+        ## Build the auxiliary graph Gk
+        Vk = [(u, v) for u in range(N) for v in range(N)
+              if d_G[u][v] == k // 2] # // operator is floor division
+        Ek = [((u, v), (w, x)) for u in range(N) for v in range(N)
+              for w in range(N) for x in range(N)
+              if G.are_connected(u, w) and G.are_connected(v, x)]
+        Gk = igraph.Graph()
+        # note converting tuples to strings for vertex names as only
+        # integer or strings (and not tuples) can be looked up as vertex IDs
+        Gk.add_vertices([str(t) for t in Vk])
+        Gk.add_edges([(str(t1), str(t2)) for (t1, t2) in Ek])
+        ## compute the graph power Gk^floor(k/2)
+        Gkpowerk2 = graphPower(G, k//2, d_G)
+        # convert Vk to dict for fast testing of elements present in it
+        Vk = dict.fromkeys(Vk)
+        for u in range(N):
+            for v in range(N):
+                for x in range(N):
+                    if ((u, v) in Vk and isInMk((v, u), (v, x)) and
+                        Gkpowerk2.are_connected(str((u, v)), str((v, x)))):
+                        ans = k
+        return ans
 
 #-----------------------------------------------------------------------------
 #
