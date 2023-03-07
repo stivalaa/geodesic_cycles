@@ -90,7 +90,7 @@ def isInMk(G, Gk, Vk, k, uvtuple, testtuple):
        Gk        - the Gk auxiliary graph in longestIsometriCycle
        Vk        - dict of tuples naming nodes of Gk for fast lookup
        k         - the current candidate isometric cycle length k
-       uvtuple   - tuple (u, v) constructing Mk and M'k
+       uvtuple   - tuple (u, v) [node in Gk] constructing Mk and M'k
        testtuple - tuple (x, y) to test for membership in Mk(u,v)
 
     Returns:
@@ -103,7 +103,7 @@ def isInMk(G, Gk, Vk, k, uvtuple, testtuple):
         (u, v) = uvtuple
         # TODO we can do this (as noted in paper) without actually
         # constructing Mprimek
-        Mprimek = set([(u, x) for x in range(Gk.vcount()) if (u, x) in Vk and
+        Mprimek = set([(u, x) for x in range(G.vcount()) if (u, x) in Vk and
                    G.are_connected(v, x)])
         return testtuple in Mprimek
 
