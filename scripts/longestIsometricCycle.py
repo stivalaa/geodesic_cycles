@@ -6,8 +6,11 @@
 # Created: March 2023
 #
 ##############################################################################
-"""Usage: longestIsometricCycle.py graph_egelist.txt
-  
+"""Usage: longestIsometricCycle.py [-v] [-d] graph_egelist.txt
+
+   Options:
+       -v : verbose. progress and other output to stderr
+       -d : debug. debug output to stderr
   
    Read graph in edgelist format (nodes must be 0..N-1) from graph_edgelist.txt
    and output length of the longest isometric cycle, using the
@@ -30,6 +33,7 @@
 
 """
 import sys
+import getopt
 import igraph
 
 def graphPower(G, k, d_G):
@@ -169,7 +173,7 @@ def usage(progname):
     """
     print usage msg and exit
     """
-    sys.stderr.write("usage: " + progname + " graph_edgelist.txt\n")
+    sys.stderr.write("usage: " + progname + "[-v] [-d] graph_edgelist.txt\n")
     sys.exit(1)
 
 
@@ -177,13 +181,29 @@ def main():
     """
     See usage message in module header block
     """
-    if (len(sys.argv) != 2):
+    verbose = False
+    debug = False
+    try:
+        opts,args = getopt.getopt(sys.argv[1:], "dv")
+    except:
+        usage(sys.argv[0])
+    for opt,arg in opts:
+        if opt == '-d':
+            debug = True
+        elif opt == '-v':
+            verbose = True
+        else:
+            usage(sys.argv[0])
+
+    if len(args) != 1:
         usage(sys.argv[0])
 
-    graph_edgelist_filename = sys.argv[1]
+    graph_edgelist_filename = args[0]
 
     g = igraph.Graph.Read(graph_edgelist_filename, format='edgelist',
                           directed=False)
+    lic = longestIsometricCycle(g, verbose, debug)
+    sys.stdout.write(str(lic) + "\n")
     
 if __name__ == "__main__":
     main()
