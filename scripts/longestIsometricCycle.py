@@ -78,11 +78,12 @@ def graphPower(G, k, d_G):
 
 
 
-def isInMk(Gk, uvtuple, testtuple):
+def isInMk(Gk, k, uvtuple, testtuple):
     """ isInMk - auxiliary function for longestIsomeric cycle
 
     Parameters:
        Gk        - the Gk auxiliary graph in longestIsometriCycle
+       k         - the current candidate isometric cycle length k
        uvtuple   - tuple (u, v) constructing Mk and M'k
        testtuple - tuple (x, y) to test for membership in Mk(u,v)
 
@@ -91,7 +92,7 @@ def isInMk(Gk, uvtuple, testtuple):
     
     """
     sys.stderr.write("TODO\n")
-    return False
+    return True
 
 
 def longestIsometricCycle(G):
@@ -119,9 +120,12 @@ def longestIsometricCycle(G):
         ## Build the auxiliary graph Gk
         Vk = [(u, v) for u in range(N) for v in range(N)
               if d_G[u][v] == k // 2] # // operator is floor division
+        # convert Vk to dict for fast testing of elements present in it
+        Vk = dict.fromkeys(Vk)
         Ek = [((u, v), (w, x)) for u in range(N) for v in range(N)
               for w in range(N) for x in range(N)
-              if G.are_connected(u, w) and G.are_connected(v, x)]
+              if (u, v) in Vk and (w, x) in Vk and
+              G.are_connected(u, w) and G.are_connected(v, x)]
         Gk = igraph.Graph()
         # note converting tuples to strings for vertex names as only
         # integer or strings (and not tuples) can be looked up as vertex IDs
@@ -129,12 +133,10 @@ def longestIsometricCycle(G):
         Gk.add_edges([(str(t1), str(t2)) for (t1, t2) in Ek])
         ## compute the graph power Gk^floor(k/2)
         Gkpowerk2 = graphPower(G, k//2, d_G)
-        # convert Vk to dict for fast testing of elements present in it
-        Vk = dict.fromkeys(Vk)
         for u in range(N):
             for v in range(N):
                 for x in range(N):
-                    if ((u, v) in Vk and isInMk((v, u), (v, x)) and
+                    if ((u, v) in Vk and isInMk(Gk, k, (v, u), (v, x)) and
                         Gkpowerk2.are_connected(str((u, v)), str((v, x)))):
                         ans = k
         return ans
