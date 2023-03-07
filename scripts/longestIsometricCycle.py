@@ -78,11 +78,13 @@ def graphPower(G, k, d_G):
 
 
 
-def isInMk(Gk, k, uvtuple, testtuple):
+def isInMk(G, Gk, Vk, k, uvtuple, testtuple):
     """ isInMk - auxiliary function for longestIsomeric cycle
 
     Parameters:
+       G         - graph G in which we are finding longest isometric cycle
        Gk        - the Gk auxiliary graph in longestIsometriCycle
+       Vk        - dict of tuples naming nodes of Gk for fast lookup
        k         - the current candidate isometric cycle length k
        uvtuple   - tuple (u, v) constructing Mk and M'k
        testtuple - tuple (x, y) to test for membership in Mk(u,v)
@@ -91,8 +93,15 @@ def isInMk(Gk, k, uvtuple, testtuple):
        True if testtuple is in the set M(uvtuple) else False
     
     """
-    sys.stderr.write("TODO\n")
-    return True
+    if k % 2 == 0: # case for even k
+        return testtuple == uvtuple
+    else:          # case for odd k
+        (u, v) = uvtuple
+        # TODO we can do this (as noted in paper) without actually
+        # constructing Mprimek
+        Mprimek = set([(u, x) for x in range(Gk.vcount()) if (u, x) in Vk and
+                   G.are_connected(v, x)])
+        return uvtuple in Mprimek
 
 
 def longestIsometricCycle(G):
@@ -136,7 +145,8 @@ def longestIsometricCycle(G):
         for u in range(N):
             for v in range(N):
                 for x in range(N):
-                    if ((u, v) in Vk and isInMk(Gk, k, (v, u), (v, x)) and
+                    if ((u, v) in Vk and
+                        isInMk(G, Gk, Vk, k, (v, u), (v, x)) and
                         Gkpowerk2.are_connected(str((u, v)), str((v, x)))):
                         ans = k
         return ans
