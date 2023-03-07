@@ -126,7 +126,7 @@ def longestIsometricCycle(G, verbose = False):
     d_G = G.shortest_paths()
     if G.is_tree():
         return ans
-    for k in range(3, N):
+    for k in range(3, N+1): # Python zero based range for 3, 4, ..., N
         if verbose:
             sys.stderr.write("k = %d\n" % k)
         ## Build the auxiliary graph Gk
