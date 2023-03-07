@@ -104,12 +104,13 @@ def isInMk(G, Gk, Vk, k, uvtuple, testtuple):
         return testtuple in Mprimek
 
 
-def longestIsometricCycle(G, verbose = False):
+def longestIsometricCycle(G, verbose = False, debug = False):
     """longestIsometricCycle - length of the longest isometric cycle in G
   
     Paramaters:
        G       - undirected graph object
-       verbose - Boolean, True to output progress/debug messages to stderr
+       verbose - Boolean, True to output progress messages to stderr
+       debug   - Boolean, True to output debugging data to stderr
    
     Returns:
        length of the longest isometric cycle in G
@@ -132,7 +133,7 @@ def longestIsometricCycle(G, verbose = False):
         ## Build the auxiliary graph Gk
         Vk = [(u, v) for u in range(N) for v in range(N)
               if d_G[u][v] == k // 2] # // operator is floor division
-        if verbose:
+        if debug:
             sys.stderr.write('Vk = %s\n' % str(Vk))
         # convert Vk to dict for fast testing of elements present in it
         Vk = dict.fromkeys(Vk)
@@ -153,6 +154,8 @@ def longestIsometricCycle(G, verbose = False):
                     if ((u, v) in Vk and
                         isInMk(G, Gk, Vk, k, (v, u), (v, x)) and
                         Gkpowerk2.are_connected(str((u, v)), str((v, x)))):
+                        if verbose and k != ans:
+                            sys.stderr.write('ans = %d\n' % k)
                         ans = k
     return ans
 
