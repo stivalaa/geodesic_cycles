@@ -154,17 +154,23 @@ def longestIsometricCycle(G, verbose = False, debug = False):
         if verbose:
             sys.stderr.write("k = %d\n" % k)
         ## Build the auxiliary graph Gk
-        Vk = set([(u, v) for u in range(N) for v in range(N)
-                  if d_G[u][v] == k // 2]) # // operator is floor division
+        Vk = [(u, v) for u in range(N) for v in range(N)
+              if d_G[u][v] == k // 2] # // operator is floor division
         if debug:
             sys.stderr.write('len(Vk) = %d\n' % len(Vk))
             sys.stderr.write('Vk = %s\n' % str(Vk))
-        Ek = set([((u, v), (w, x)) for (u, v) in Vk for (w, x) in Vk if
+        VK = set(Vk)  # a set is basically a dict, O(1) lookup
+        if debug:
+            sys.stderr.write('set len(Vk) = %d\n' % len(Vk))
+        Ek = [((u, v), (w, x)) for (u, v) in Vk for (w, x) in Vk if
                   (u, v) != (w, x) and
-                  G.are_connected(u, w) and G.are_connected(v, x)])
+                  G.are_connected(u, w) and G.are_connected(v, x)]
         if debug:
             sys.stderr.write('len(Ek) = %d\n' % len(Ek))
             sys.stderr.write("Ek = %s\n" % str(Ek))
+        Ek = set(Ek)
+        if debug:
+            sys.stderr.write('set len(Ek) = %d\n' % len(Ek))            
         Gk = igraph.Graph()
         # note converting tuples to strings for vertex names as only
         # integer or strings (and not tuples) can be looked up as vertex IDs
