@@ -81,7 +81,8 @@ def graphPower(G, k, d_G = None):
     ## https://stackoverflow.com/questions/13974279/igraph-why-is-add-edge-function-so-slow-ompared-to-add-edges
     ## but we need some way to not end up with multi-edges (which
     ## add_edge() or add_edges() does not seem to have an option to
-    ## only add if not already there).
+    ## only add if not already there). Simple way be to simply
+    ## make the edgelist a set.
     if d_G is None:
         d_G = G.shortest_paths()
     powerGk = G.copy()
@@ -104,7 +105,7 @@ def isInMk(G, Gk, Vk, k, uvtuple, testtuple):
     Parameters:
        G         - graph G in which we are finding longest isometric cycle
        Gk        - the Gk auxiliary graph in longestIsometriCycle
-       Vk        - dict of tuples naming nodes of Gk for fast lookup
+       Vk        - dict or set of tuples naming nodes of Gk for fast lookup
        k         - the current candidate isometric cycle length k
        uvtuple   - tuple (u, v) [node in Gk] constructing Mk and M'k
        testtuple - tuple (x, y) to test for membership in Mk(u,v)
@@ -142,6 +143,8 @@ def longestIsometricCycle(G, verbose = False, debug = False):
       graph. Discrete Applied Mathematics, 157(12), 2670-2674.
     
     """
+    assert not G.is_directed()
+    assert G.is_simple()
     ans = 0
     N = G.vcount()
     d_G = G.shortest_paths()
@@ -151,21 +154,31 @@ def longestIsometricCycle(G, verbose = False, debug = False):
         if verbose:
             sys.stderr.write("k = %d\n" % k)
         ## Build the auxiliary graph Gk
-        Vk = [(u, v) for u in range(N) for v in range(N)
-              if d_G[u][v] == k // 2] # // operator is floor division
+        Vk = set([(u, v) for u in range(N) for v in range(N)
+                  if d_G[u][v] == k // 2]) # // operator is floor division
         if debug:
+            sys.stderr.write('len(Vk) = %d\n' % len(Vk))
             sys.stderr.write('Vk = %s\n' % str(Vk))
-        # convert Vk to dict for fast testing of elements present in it
-        Vk = dict.fromkeys(Vk)
-        Ek = [((u, v), (w, x)) for (u, v) in Vk for (w, x) in Vk if
-              G.are_connected(u, w) and G.are_connected(v, x)]
+        Ek = set([((u, v), (w, x)) for (u, v) in Vk for (w, x) in Vk if
+                  (u, v) != (w, x) and
+                  G.are_connected(u, w) and G.are_connected(v, x)])
+        if debug:
+            sys.stderr.write('len(Ek) = %d\n' % len(Ek))
+            sys.stderr.write("Ek = %s\n" % str(Ek))
         Gk = igraph.Graph()
         # note converting tuples to strings for vertex names as only
         # integer or strings (and not tuples) can be looked up as vertex IDs
         Gk.add_vertices([str(t) for t in Vk])
+        if debug:
+            sys.stderr.write(str([(str(t1), str(t2)) for (t1, t2) in Ek]) + '\n')
         Gk.add_edges([(str(t1), str(t2)) for (t1, t2) in Ek])
+        if debug:
+            sys.stderr.write(Gk.summary() + '\n')
+        assert not Gk.has_multiple()
+        assert Gk.is_simple()
         ## compute the graph power Gk^floor(k/2)
         Gkpowerk2 = graphPower(Gk, k//2)
+        assert Gkpowerk2.is_simple()
         if debug:
             sys.stderr.write("Gkpowerk2.density() = %g,  Gk.density() = %g\n" % (Gkpowerk2.density(), Gk.density()))
         assert Gk.ecount() == 0 or (Gkpowerk2.density() >= Gk.density())
