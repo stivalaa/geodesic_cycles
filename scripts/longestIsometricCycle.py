@@ -101,7 +101,7 @@ def isInMk(G, Gk, Vk, k, uvtuple, testtuple):
         # constructing Mprimek
         Mprimek = set([(u, x) for x in range(Gk.vcount()) if (u, x) in Vk and
                    G.are_connected(v, x)])
-        return uvtuple in Mprimek
+        return testtuple in Mprimek
 
 
 def longestIsometricCycle(G):
