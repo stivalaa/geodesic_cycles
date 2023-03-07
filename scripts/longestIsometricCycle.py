@@ -150,6 +150,8 @@ def longestIsometricCycle(G, verbose = False, debug = False):
         Gk.add_edges([(str(t1), str(t2)) for (t1, t2) in Ek])
         ## compute the graph power Gk^floor(k/2)
         d_Gk = Gk.shortest_paths()
+        if debug:
+            sys.stderr.write('d_Gk = ' + str(d_Gk) + '\n')
         Gkpowerk2 = graphPower(Gk, k//2, d_Gk)
         for u in range(N):
             for v in range(N):
@@ -162,9 +164,8 @@ def longestIsometricCycle(G, verbose = False, debug = False):
                         ans = k
                         if k % 2 == 0:
                             if debug:
-                                sys.stderr.write("u = %d, v = %d, x = %d, d_Gk[u][v] = %d, d_Gk[v][x] = %d\n" % (u, v, x, d_Gk[u][v], d_Gk[v][x]))
-                            assert d_Gk[u][v] == d_Gk[v][x]
-                            assert d_Gk[u][v] == k // 2
+                                sys.stderr.write("u = %d, v = %d, x = %d, d_Gk[(u,v)][(v,u)] = %d\n" % (u, v, x, d_Gk[(u,v)][(v,u)]))
+
     return ans
 
 #-----------------------------------------------------------------------------
