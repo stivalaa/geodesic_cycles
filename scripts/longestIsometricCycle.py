@@ -202,6 +202,8 @@ def main():
 
     g = igraph.Graph.Read(graph_edgelist_filename, format='edgelist',
                           directed=False)
+    if verbose:
+        sys.stderr.write(g.summary() + '\n')
     lic = longestIsometricCycle(g, verbose, debug)
     sys.stdout.write(str(lic) + "\n")
     
