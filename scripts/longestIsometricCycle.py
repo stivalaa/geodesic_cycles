@@ -141,8 +141,7 @@ def longestIsometricCycle(G, verbose = False, debug = False):
             sys.stderr.write('Vk = %s\n' % str(Vk))
         # convert Vk to dict for fast testing of elements present in it
         Vk = dict.fromkeys(Vk)
-        Ek = [((u, v), (w, x)) for (u, v) in Vk for (w, x) in Vk
-              if (u, v) in Vk and (w, x) in Vk and
+        Ek = [((u, v), (w, x)) for (u, v) in Vk for (w, x) in Vk if
               G.are_connected(u, w) and G.are_connected(v, x)]
         Gk = igraph.Graph()
         # note converting tuples to strings for vertex names as only
