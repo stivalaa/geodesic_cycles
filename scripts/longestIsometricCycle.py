@@ -36,13 +36,14 @@ import sys
 import getopt
 import igraph
 
-def graphPower(G, k, d_G):
+def graphPower(G, k, d_G = None):
     """graphPower - return the graph power of graph G to the integer power k
   
     Paramaters:
        G       - undirected graph object
        k       - integer
        d_G     - precomputed distance matrix for G, G.shortest_paths().
+                 If None (default) then computed here.
    
     Returns:
        a new graph, the graph G^k
@@ -73,6 +74,8 @@ def graphPower(G, k, d_G):
     matrix multiplication with the "folklore algorithm for computing graph
     powers" [pp. 2672-2673].
     """
+    if d_G is None:
+        d_G = G.shortest_paths()
     powerGk = G.copy()
     for u in range(G.vcount()):
         for v in range(G.vcount()):
@@ -149,10 +152,7 @@ def longestIsometricCycle(G, verbose = False, debug = False):
         Gk.add_vertices([str(t) for t in Vk])
         Gk.add_edges([(str(t1), str(t2)) for (t1, t2) in Ek])
         ## compute the graph power Gk^floor(k/2)
-        d_Gk = Gk.shortest_paths()
-        if debug:
-            sys.stderr.write('d_Gk = ' + str(d_Gk) + '\n')
-        Gkpowerk2 = graphPower(Gk, k//2, d_Gk)
+        Gkpowerk2 = graphPower(Gk, k//2)
         for u in range(N):
             for v in range(N):
                 for x in range(N):
@@ -164,7 +164,14 @@ def longestIsometricCycle(G, verbose = False, debug = False):
                         ans = k
                         if k % 2 == 0:
                             if debug:
-                                sys.stderr.write("u = %d, v = %d, x = %d, d_Gk[(u,v)][(v,u)] = %d\n" % (u, v, x, d_Gk[(u,v)][(v,u)]))
+                                sp = Gk.shortest_paths(str((u, v)), str((v, u)))
+                                # only got shortest path between two nodes
+                                # so must be list of length 1 nested
+                                assert len(sp) == 1
+                                assert len(sp[0]) == 1
+                                sp = sp[0][0]
+                                sys.stderr.write("u = %d, v = %d, x = %d, d_Gk[(u,v)][(v,u)] = %d\n" % (u, v, x, sp))
+                                assert sp == k / 2
 
     return ans
 
