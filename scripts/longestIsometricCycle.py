@@ -146,7 +146,7 @@ def longestIsometricCycle(G, verbose = False):
         Gk.add_vertices([str(t) for t in Vk])
         Gk.add_edges([(str(t1), str(t2)) for (t1, t2) in Ek])
         ## compute the graph power Gk^floor(k/2)
-        Gkpowerk2 = graphPower(Gk, k//2, d_G)
+        Gkpowerk2 = graphPower(Gk, k//2, Gk.shortest_paths())
         for u in range(N):
             for v in range(N):
                 for x in range(N):
