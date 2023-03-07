@@ -74,6 +74,12 @@ def graphPower(G, k, d_G = None):
     matrix multiplication with the "folklore algorithm for computing graph
     powers" [pp. 2672-2673].
     """
+    ## TODO would be much faster to build list of edges and add all at
+    ## once:
+    ## https://stackoverflow.com/questions/13974279/igraph-why-is-add-edge-function-so-slow-ompared-to-add-edges
+    ## but we need some way to not end up with multi-edges (which
+    ## add_edge() or add_edges() does not seem to have an option to
+    ## only add if not already there).
     if d_G is None:
         d_G = G.shortest_paths()
     powerGk = G.copy()
@@ -153,6 +159,9 @@ def longestIsometricCycle(G, verbose = False, debug = False):
         Gk.add_edges([(str(t1), str(t2)) for (t1, t2) in Ek])
         ## compute the graph power Gk^floor(k/2)
         Gkpowerk2 = graphPower(Gk, k//2)
+        if debug:
+            sys.stderr.write("Gkpowerk2.density() = %g,  Gk.density() = %g\n" % (Gkpowerk2.density(), Gk.density()))
+        assert Gk.ecount() == 0 or (Gkpowerk2.density() >= Gk.density())
         for u in range(N):
             for v in range(N):
                 for x in range(N):
