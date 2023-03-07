@@ -77,7 +77,7 @@ def graphPower(G, k, d_G):
     for u in range(G.vcount()):
         for v in range(G.vcount()):
             if u != v and d_G[u][v] <= k and not powerGk.are_connected(u, v):
-                powerGk.add_edges([(u,v)])
+                powerGk.add_edge(u,v)
     return powerGk
 
 
