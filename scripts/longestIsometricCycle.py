@@ -162,8 +162,8 @@ def longestIsometricCycle(G, verbose = False, debug = False):
                         if verbose and k != ans:
                             sys.stderr.write('ans = %d\n' % k)
                         ans = k
-                        if k % 2 == 0:
-                            if debug:
+                        if debug:
+                            if k % 2 == 0: # even k case
                                 sp = Gk.shortest_paths(str((u, v)), str((v, u)))
                                 # only got shortest path between two nodes
                                 # so must be list of length 1 nested
@@ -172,6 +172,8 @@ def longestIsometricCycle(G, verbose = False, debug = False):
                                 sp = sp[0][0]
                                 sys.stderr.write("u = %d, v = %d, x = %d, d_Gk[(u,v)][(v,u)] = %d\n" % (u, v, x, sp))
                                 assert sp == k / 2
+                            else: # odd k case
+                                pass #TODO
 
     return ans
 
