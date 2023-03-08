@@ -188,6 +188,8 @@ def longestIsometricCycle(G, verbose = False, debug = False):
         ## Python/igraph it seems it actually test if the graph is
         ## bipartite by finding an assignment of modes
         ## i.e. bipartite_mapping() in R/igraph.
+        if verbose:
+            sys.stderr.write('graph is bipartite\n')
         k_iter = range(4, N+1, 2)
     else:
         sys.stderr.write("FIXME NOT CORRECT FOR ODD CYCLE LENGTHS\n")
