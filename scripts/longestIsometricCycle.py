@@ -118,27 +118,6 @@ def graphPower(G, k, d_G = None):
     return powerGk
 
 
-def graphPower_OLD(G, k, d_G = None):
-    ## TODO would be much faster to build list of edges and add all at
-    ## once:
-    ## https://stackoverflow.com/questions/13974279/igraph-why-is-add-edge-function-so-slow-ompared-to-add-edges
-    ## but we need some way to not end up with multi-edges (which
-    ## add_edge() or add_edges() does not seem to have an option to
-    ## only add if not already there). Simple way be to simply
-    ## make the edgelist a set.
-    if d_G is None:
-        d_G = G.shortest_paths()
-    powerGk = G.copy()
-    for u in range(G.vcount()):
-        for v in range(G.vcount()):
-            if u != v and d_G[u][v] <= k and not powerGk.are_connected(u, v):
-                ## in the absence of more efficient way (see above TODO)
-                ## add_edges() is supposedly more efficient than add_edge()
-                ## even for a single edge since we don't need the
-                ## returned Edge object here
-                ## https://igraph.org/python/doc/api/igraph.Graph.html#add_edge
-                powerGk.add_edges([(u,v)])
-    return powerGk
 
 
 def isInMk(G, Gk, Vk, k, uvtuple, testtuple):
@@ -249,7 +228,6 @@ def longestIsometricCycle(G, verbose = False, debug = False):
         assert Gkpowerk2.is_simple()
         if debug:
             sys.stderr.write("Gkpowerk2.density() = %g,  Gk.density() = %g\n" % (Gkpowerk2.density(), Gk.density()))
-            assert Gkpowerk2.isomorphic(graphPower_OLD(Gk, k//2)) #XXX
         assert Gk.ecount() == 0 or (Gkpowerk2.density() >= Gk.density())
         for u in range(N):
             for v in range(N):
