@@ -168,9 +168,17 @@ def longestIsometricCycle(G, verbose = False, debug = False):
         if debug:
             sys.stderr.write('len(Ek) = %d\n' % len(Ek))
             sys.stderr.write("Ek = %s\n" % str(Ek))
-        Ek = set(Ek)
+        ## Convert each pair of tuples in Ek from a tuple of tuples
+        ## to a frozenset of tuples, and then convert the whole list
+        ## to a set to remove duplicates of the form
+        ## [((a, b), (c, d)), ((c, d), (a, b))]
+        ## i.e. this is the same edge in an undirected graph.
+        ## Need to use frozenset for inside the list comprehension
+        ## to which set is applied, as set is an unhasable type
+        ## but frozenset is not.
+        Ek = set([frozenset(t) for t in Ek])
         if debug:
-            sys.stderr.write('set len(Ek) = %d\n' % len(Ek))            
+            sys.stderr.write('set len(Ek) = %d\n' % len(Ek))
         Gk = igraph.Graph()
         # note converting tuples to strings for vertex names as only
         # integer or strings (and not tuples) can be looked up as vertex IDs
@@ -180,9 +188,7 @@ def longestIsometricCycle(G, verbose = False, debug = False):
         Gk.add_edges([(str(t1), str(t2)) for (t1, t2) in Ek])
         if debug:
             sys.stderr.write(Gk.summary() + '\n')
-        assert not any(Gk.is_loop())
-        assert not Gk.has_multiple()
-        #already done by previous two asserts: assert Gk.is_simple()
+        assert Gk.is_simple()
         ## compute the graph power Gk^floor(k/2)
         Gkpowerk2 = graphPower(Gk, k//2)
         assert Gkpowerk2.is_simple()
