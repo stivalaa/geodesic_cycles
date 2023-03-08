@@ -180,8 +180,9 @@ def longestIsometricCycle(G, verbose = False, debug = False):
         Gk.add_edges([(str(t1), str(t2)) for (t1, t2) in Ek])
         if debug:
             sys.stderr.write(Gk.summary() + '\n')
+        assert not any(Gk.is_loop())
         assert not Gk.has_multiple()
-        assert Gk.is_simple()
+        #already done by previous two asserts: assert Gk.is_simple()
         ## compute the graph power Gk^floor(k/2)
         Gkpowerk2 = graphPower(Gk, k//2)
         assert Gkpowerk2.is_simple()
