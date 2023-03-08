@@ -176,7 +176,6 @@ def longestIsometricCycle(G, verbose = False, debug = False):
                   G.are_connected(u, w) and G.are_connected(v, x)])
         if debug:
             sys.stderr.write('len(Ek) = %d\n' % len(Ek))
-            sys.stderr.write("Ek = %s\n" % str(Ek))
         Gk = igraph.Graph()
         # note converting tuples to strings for vertex names as only
         # integer or strings (and not tuples) can be looked up as vertex IDs
