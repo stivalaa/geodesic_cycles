@@ -33,6 +33,34 @@
 
 Developed with python/igraph 0.9.9 under Python 3.9.10 (Cygwin Windows 10) and
 python/igraph 0.10.2 under Python 3.9.0 (Linux CentOS 8.2.2004)
+
+
+FIXME actually this does not work correctly and I have not been able to work
+out why, even after careful checking that it implements the Lokshtanov (2009)
+algorithm and the conditions in its Lemmas correctly. It seems that in fact
+there is an error in Lemma 3.6 in Lokshtanov (2009), which is preciesely
+the condition that leads to it showing an isometric cycle of length 11
+in the Patricia 1990 network, when in fact there is no such cycle (the longest
+is 10). Found after checking all papers citing Lokshtanov (2009) and
+eventually found this:
+
+Catrina, F., Khan, R., Moorman, I., Ostrovskii, M., & Vidyasagar, L. I. C. (2021). Quantitative characteristics of cycles and their relations with stretch and spanning tree congestion. arXiv preprint arXiv:2104.07872.
+
+which shows a counterexample to Lokshtanov (2009) Lemma 3.6; in fact
+very similar to the Patricia 1990 case (but smaller), and describes
+how to derive a correct condition for the odd case, based on the even
+case with an auxiliary bipartite graph (see Observation 5.4 and following
+proof in Catrina et al. (2021).
+
+So until this is fixed here, in fact we can only rely on this
+algorithm to find the longest even-length isometric cycle (because of
+the incorrect Lemma in the original paper, implemented here, it can
+incorrectly find odd-length isometric cycles.
+
+But for biparite graphs, since there are no odd-length cycles,
+it can still be used.
+
+
 """
 import sys
 import getopt
@@ -117,6 +145,7 @@ def isInMk(G, Gk, Vk, k, uvtuple, testtuple):
     if k % 2 == 0: # case for even k
         return testtuple == uvtuple
     else:          # case for odd k
+        sys.stderr.write("FIXME not correct for case of odd k\n") # see module header comment
         (u, v) = uvtuple
         # TODO we can do this (as noted in paper) without actually
         # constructing Mprimek
@@ -150,7 +179,20 @@ def longestIsometricCycle(G, verbose = False, debug = False):
     d_G = G.shortest_paths()
     if G.is_tree():
         return ans
-    for k in range(3, N+1): # Python zero based range for 3, 4, ..., N
+    if G.is_bipartite():
+        ## bipartite graphs cannot have odd-length cycles.
+        ##
+        ## FIXME maybe it is best not to do this check; in R/graph
+        ## is_bipartite() just checks if the graph object is flagged
+        ## as being bipartite (has type attribute on nodes), but in
+        ## Python/igraph it seems it actually test if the graph is
+        ## bipartite by finding an assignment of modes
+        ## i.e. bipartite_mapping() in R/igraph.
+        k_iter = range(4, N+1, 2)
+    else:
+        sys.stderr.write("FIXME NOT CORRECT FOR ODD CYCLE LENGTHS\n")
+        k_iter = range(3, N+1) # Python zero based range for 3, 4, ..., N
+    for k in k_iter:
         if verbose:
             sys.stderr.write("k = %d\n" % k)
         ## Build the auxiliary graph Gk
