@@ -44,7 +44,10 @@ in the Patricia 1990 network, when in fact there is no such cycle (the longest
 is 10). Found after checking all papers citing Lokshtanov (2009) and
 eventually found this:
 
-Catrina, F., Khan, R., Moorman, I., Ostrovskii, M., & Vidyasagar, L. I. C. (2021). Quantitative characteristics of cycles and their relations with stretch and spanning tree congestion. arXiv preprint arXiv:2104.07872.
+Catrina, F., Khan, R., Moorman, I., Ostrovskii, M., & Vidyasagar,
+L. I. C. (2021). Quantitative characteristics of cycles and their
+relations with stretch and spanning tree congestion. arXiv preprint
+arXiv:2104.07872.
 
 which shows a counterexample to Lokshtanov (2009) Lemma 3.6; in fact
 very similar to the Patricia 1990 case (but smaller), and describes
@@ -59,7 +62,6 @@ incorrectly find odd-length isometric cycles.
 
 But for biparite graphs, since there are no odd-length cycles,
 it can still be used.
-
 
 """
 import sys
