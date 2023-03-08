@@ -110,10 +110,9 @@ def graphPower(G, k, d_G = None):
     if d_G is None:
         d_G = G.shortest_paths()
     powerGk = G.copy()
-    ## making the list a set, we remove any duplicates
-    new_edges = set([(u, v) for u in range(N) for v in range(N)
-                     if u < v and d_G[u][v] > 1 # no loops or existing edges
-                     and d_G[u][v] <= k])
+    new_edges = [(u, v) for u in range(N) for v in range(N)
+                 if u < v and d_G[u][v] > 1 # no loops or existing edges
+                 and d_G[u][v] <= k]
     powerGk.add_edges(new_edges)
     return powerGk
 
