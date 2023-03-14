@@ -252,15 +252,17 @@ def longestIsometricCycleConnected(G, verbose = False, debug = False):
             if isIsometricCycleLengthkEven(G, k, d_G, verbose, debug):
                 if verbose and k != ans:
                     sys.stderr.write('ans = %d\n' % k)
-                    ans = k
+                ans = k
         else:
             ## k is odd, use the Catrina et al. method with
-            ## auxiliary bipartite graph Gprime
+            ## auxiliary bipartite graph Gprime;
+            ## there is an isometric cycle of length k in G iff there
+            ## is an isometric cycle of length 2k in Gprime.
             if isIsometricCycleLengthkEven(Gprime, k*2, d_Gprime,
                                            verbose, debug):
                 if verbose and k != ans:
                     sys.stderr.write('ans = %d\n' % k)
-                    ans = k
+                ans = k
     return ans
 
 
