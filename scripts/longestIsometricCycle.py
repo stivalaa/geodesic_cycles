@@ -58,6 +58,15 @@ import sys
 import getopt
 import igraph
 
+def flatten(l):
+    """
+    flatten - flatten list of lists to a list
+
+    https://stackoverflow.com/questions/952914/how-do-i-make-a-flat-list-out-of-a-list-of-lists
+    """
+    return [item for sublist in l for item in sublist]
+
+    
 def graphPower(G, k, d_G = None):
     """graphPower - return the graph power of graph G to the integer power k
   
@@ -221,8 +230,20 @@ def longestIsometricCycleConnected(G, verbose = False, debug = False):
         if verbose:
             sys.stderr.write('graph is bipartite\n')
         k_iter = range(4, N+1, 2)
+        Gprime = None # only used for odd k
     else:
         k_iter = range(3, N+1) # Python zero based range for 3, 4, ..., N
+        ## buld the Catrina et al. (2021) auxiliary bipartite graph Gprime
+        ## which is derived from G by dividing every edge in G into two
+        ## edges, with a new vertex connected to both endpoints of
+        ## the original edge. (See Observation 5.4 in Catrina et al. (2021)).
+        Gprime = igraph.Graph(G.vcount() + G.ecount())
+        edges = flatten([[(e.source, x), (x, e.target)]
+                         for (x, e) in enumerate(G.es, start = G.vcount())])
+        Gprime.add_edges(edges)
+        assert Gprime.ecount() == 2 * G.ecount()
+        assert Gprime.is_bipartite()
+        d_Gprime = Gprime.shortest_paths()
     for k in k_iter:
         if verbose:
             sys.stderr.write("k = %d\n" % k)
@@ -235,7 +256,8 @@ def longestIsometricCycleConnected(G, verbose = False, debug = False):
         else:
             ## k is odd, use the Catrina et al. method with
             ## auxiliary bipartite graph Gprime
-            if isIsometricCycleLengthkEven(Gprime, k*2, d_G, verbose, debug):
+            if isIsometricCycleLengthkEven(Gprime, k*2, d_Gprime,
+                                           verbose, debug):
                 if verbose and k != ans:
                     sys.stderr.write('ans = %d\n' % k)
                     ans = k
