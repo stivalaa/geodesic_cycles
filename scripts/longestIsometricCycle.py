@@ -31,28 +31,32 @@
      Stivala, A. (2023). Geodesic cycle length distributions in
      fictional character networks.  [Unpublished manuscript.]
 
-Developed with python/igraph 0.9.9 under Python 3.9.10 (Cygwin Windows 10) and
-python/igraph 0.10.2 under Python 3.9.0 (Linux CentOS 8.2.2004)
+   Developed with python/igraph 0.9.9 under Python 3.9.10 (Cygwin
+   Windows 10) and python/igraph 0.10.2 under Python 3.9.0 (Linux CentOS
+   8.2.2004)
 
 
-There is an error in Lemma 3.6 in Lokshtanov (2009), which is
-preciesely the condition that leads to it, for example, showing an
-isometric cycle of length 11 in the Patricia 1990 network, when in
-fact there is no such cycle (the longest is 10).
+   There is an error in Lemma 3.6 in Lokshtanov (2009), which is
+   preciesely the condition that leads to it, for example, showing an
+   isometric cycle of length 11 in the Patricia 1990 network, when in
+   fact there is no such cycle (the longest is 10).
 
-This error is described by:
+   This error is described by:
 
       Catrina, F., Khan, R., Moorman, I., Ostrovskii, M., & Vidyasagar,
       L. I. C. (2021). Quantitative characteristics of cycles and their
       relations with stretch and spanning tree congestion. arXiv preprint
       arXiv:2104.07872.
 
-which shows a counterexample to Lokshtanov (2009) Lemma 3.6; in fact
-very similar to the Patricia 1990 case (but smaller), and describes
-how to derive a correct condition for the odd case, based on the even
-case with an auxiliary bipartite graph (see Observation 5.4 and following
-proof in Catrina et al. (2021)).
+   which shows a counterexample to Lokshtanov (2009) Lemma 3.6; in
+   fact very similar to the Patricia 1990 case (but smaller), and
+   describes how to derive a correct condition for the odd case, based
+   on the even case with an auxiliary bipartite graph (see Observation
+   5.4 and following proof in Catrina et al. (2021)).
 
+   This implementation uses the auxiliary bipartite graph method of
+   Catrina et al. (2021) so that it works correctly in both the even
+   and odd k cases.
 """
 import sys
 import getopt
@@ -136,6 +140,7 @@ def isIsometricCycleLengthkEven(G, k, d_G, verbose = False, debug = False):
 
     """
     assert k % 2 == 0
+    count = 0
     N = G.vcount()
     ## Build the auxiliary graph Gk
     Vk = [(u, v) for u in range(N) for v in range(N)
@@ -178,7 +183,11 @@ def isIsometricCycleLengthkEven(G, k, d_G, verbose = False, debug = False):
     assert Gk.ecount() == 0 or (Gkpowerk2.density() >= Gk.density())
     for (u, v) in Vk:
         if Gkpowerk2.are_connected(str((u, v)), str((v, u))):
-            return True
+            count += 1
+            #XXX return True
+    if verbose:
+        sys.stderr.write("k = %d, count = %d\n" % (k, count))
+    return count
 
 
 def longestIsometricCycleConnected(G, verbose = False, debug = False):
