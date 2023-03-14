@@ -146,11 +146,11 @@ def isInMk(G, Gk, Vk, k, uvtuple, testtuple):
         return testtuple in Mprimek
 
 
-def longestIsometricCycle(G, verbose = False, debug = False):
-    """longestIsometricCycle - length of the longest isometric cycle in G
+def longestIsometricCycleConnected(G, verbose = False, debug = False):
+    """longestIsometricCycleConnected - length of longest isometric cycle in G
   
     Paramaters:
-       G       - undirected graph object
+       G       - undirected connected graph object
        verbose - Boolean, True to output progress messages to stderr
        debug   - Boolean, True to output debugging data to stderr
    
@@ -166,6 +166,7 @@ def longestIsometricCycle(G, verbose = False, debug = False):
     """
     assert not G.is_directed()
     assert G.is_simple()
+    assert G.is_connected()
     ans = 0
     N = G.vcount()
     d_G = G.shortest_paths()
@@ -174,7 +175,7 @@ def longestIsometricCycle(G, verbose = False, debug = False):
     if G.is_bipartite():
         ## bipartite graphs cannot have odd-length cycles.
         ##
-        ## FIXME maybe it is best not to do this check; in R/graph
+        ## TODO maybe it is best not to do this check; in R/graph
         ## is_bipartite() just checks if the graph object is flagged
         ## as being bipartite (has type attribute on nodes), but in
         ## Python/igraph it seems it actually test if the graph is
@@ -252,6 +253,32 @@ def longestIsometricCycle(G, verbose = False, debug = False):
                                 sys.stderr.write("odd k = %d: u = %d, v = %d, x = %d, d_Gk[(u,v)][(v,x)] = %d\n" % (k, u, v, x, sp))
                                 assert sp == k // 2
     return ans
+
+
+def longestIsometricCycle(G, verbose = False, debug = False):
+    """longestIsometricCycle - length of the longest isometric cycle in G
+
+    Paramaters:
+       G       - undirected graph object
+       verbose - Boolean, True to output progress messages to stderr
+       debug   - Boolean, True to output debugging data to stderr
+
+    Returns:
+       length of the longest isometric cycle in G
+
+    Call longestIsometricCycleConnected() on each connected component
+    of G and return longest isometric cycle in the graph, which is the
+    longest isometric cycle in any of the components, since a cycle
+    must be entirely contained within a single component.
+    """
+    comps = G.decompose()
+    if verbose:
+        sys.stderr.write("number of components = %d\n" % len(comps))
+    cyclens = [longestIsometricCycleConnected(comp, verbose, debug)
+               for comp in comps]
+    if verbose:
+        sys.stderr.write("cyclens = " + str(cyclens) + "\n")
+    return max(cyclens)
 
 #-----------------------------------------------------------------------------
 #
