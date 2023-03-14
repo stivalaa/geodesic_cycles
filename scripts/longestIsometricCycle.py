@@ -176,12 +176,9 @@ def isIsometricCycleLengthkEven(G, k, d_G, verbose = False, debug = False):
     if debug:
         sys.stderr.write("Gkpowerk2.density() = %g,  Gk.density() = %g\n" % (Gkpowerk2.density(), Gk.density()))
     assert Gk.ecount() == 0 or (Gkpowerk2.density() >= Gk.density())
-    # TODO more efficient to iterate over nodes in Vk instead of nested loop?
-    for u in range(N):
-        for v in range(N):
-            if ((u, v) in Vk and
-                Gkpowerk2.are_connected(str((u, v)), str((v, u)))):
-                return True
+    for (u, v) in Vk:
+        if Gkpowerk2.are_connected(str((u, v)), str((v, u))):
+            return True
 
 
 def longestIsometricCycleConnected(G, verbose = False, debug = False):
