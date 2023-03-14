@@ -204,26 +204,11 @@ def longestIsometricCycleConnected(G, verbose = False, debug = False):
         assert Gk.ecount() == 0 or (Gkpowerk2.density() >= Gk.density())
         for u in range(N):
             for v in range(N):
-                for x in range(N):
-                    if ((u, v) in Vk and u == x and
-                        Gkpowerk2.are_connected(str((u, v)), str((v, x)))):
-                        if verbose and k != ans:
-                            sys.stderr.write('ans = %d\n' % k)
-                        ans = k
-                        if debug:
-                            sp = Gk.shortest_paths(str((u, v)), str((v, x)))
-                            # only got shortest path between two nodes
-                            # so must be list of length 1 nested
-                            assert len(sp) == 1
-                            assert len(sp[0]) == 1
-                            sp = sp[0][0]
-                            if k % 2 == 0: # even k case
-                                sys.stderr.write("even k = %d: u = %d, v = %d, x = %d, d_Gk[(u,v)][(v,x)] = %d\n" % (k, u, v, x, sp))
-                                assert sp == k / 2
-                                assert u == x
-                            else: # odd k case
-                                sys.stderr.write("odd k = %d: u = %d, v = %d, x = %d, d_Gk[(u,v)][(v,x)] = %d\n" % (k, u, v, x, sp))
-                                assert sp == k // 2
+                if ((u, v) in Vk and
+                    Gkpowerk2.are_connected(str((u, v)), str((v, u)))):
+                    if verbose and k != ans:
+                        sys.stderr.write('ans = %d\n' % k)
+                    ans = k
     return ans
 
 
