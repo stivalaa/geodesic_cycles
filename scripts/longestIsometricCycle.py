@@ -140,7 +140,7 @@ def isIsometricCycleLengthkEven(G, k, d_G, verbose = False, debug = False):
 
     """
     assert k % 2 == 0
-    count = 0
+    # #count = 0
     N = G.vcount()
     ## Build the auxiliary graph Gk
     Vk = [(u, v) for u in range(N) for v in range(N)
@@ -183,12 +183,22 @@ def isIsometricCycleLengthkEven(G, k, d_G, verbose = False, debug = False):
     assert Gk.ecount() == 0 or (Gkpowerk2.density() >= Gk.density())
     for (u, v) in Vk:
         if Gkpowerk2.are_connected(str((u, v)), str((v, u))):
-            count += 1
-            #XXX return True
-    if verbose:
-        sys.stderr.write("k = %d, count = %d\n" % (k, count))
-    return count
-
+            # experiment to try counting not just testing for
+            # existence of isometric cycles - seemed promising
+            # initially, but does not work in situations where
+            # multiple cycles of same length share edges, e.g. one of
+            # the simplest examples showing this is the
+            # fourcyccl3_bipartite_edgelist.txt example from
+            # ERGMXL/example_bipartite_networks/, where the count
+            # value is 8 so dividing by k (k=4) it only therefore
+            # counts 2 cycles but there are 3 (in this case the same
+            # error the 'atomic' method has)
+            # #count += 1
+            return True
+    # #if verbose:
+    # #    sys.stderr.write("k = %d, count = %d\n" % (k, count))
+    # #return count
+    return True
 
 def longestIsometricCycleConnected(G, verbose = False, debug = False):
     """longestIsometricCycleConnected - length of longest isometric cycle in G
