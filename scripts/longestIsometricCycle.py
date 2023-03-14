@@ -117,6 +117,72 @@ def graphPower(G, k, d_G = None):
     return powerGk
 
 
+def isIsometricCycleLengthkEven(G, k, d_G, verbose = False, debug = False):
+    """isIsometricCycleLengthkEven - does an isometric cycle of length
+                                     k (for even k) exist?
+
+    Paramaters:
+       G       - undirected connected graph object
+       k       - length of isometric cycle to check for; must be even
+       d_G     - precomputed shortest paths matrix from G.shortest_paths()
+       verbose - Boolean, True to output progress messages to stderr
+       debug   - Boolean, True to output debugging data to stderr
+
+    Returns:
+       True if isometric cycle of length exactly k exists else False
+
+    See:
+       Lokshtanov, D. (2009). Finding the longest isometric cycle in a
+       graph. Discrete Applied Mathematics, 157(12), 2670-2674.
+
+    """
+    assert k % 2 == 0
+    N = G.vcount()
+    ## Build the auxiliary graph Gk
+    Vk = [(u, v) for u in range(N) for v in range(N)
+          if d_G[u][v] == k // 2] # // operator is floor division
+    if debug:
+        sys.stderr.write('len(Vk) = %d\n' % len(Vk))
+        sys.stderr.write('Vk = %s\n' % str(Vk))
+    VK = set(Vk)  # a set is basically a dict, O(1) lookup
+    if debug:
+        sys.stderr.write('set len(Vk) = %d\n' % len(Vk))
+    ## Instead of each pair of tuples in Ek being a tuple of tuples
+    ## use a frozenset of tuples, and then convert the whole list
+    ## to a set to remove duplicates of the form
+    ## [((a, b), (c, d)), ((c, d), (a, b))]
+    ## i.e. this is the same edge in an undirected graph.
+    ## Need to use frozenset for inside the list comprehension
+    ## to which set is applied, as set is an unhasable type
+    ## but frozenset is not.
+    Ek = set([frozenset(((u, v), (w, x))) for (u, v) in Vk
+              for (w, x) in Vk if
+              (u, v) != (w, x) and
+              G.are_connected(u, w) and G.are_connected(v, x)])
+    if debug:
+        sys.stderr.write('len(Ek) = %d\n' % len(Ek))
+    Gk = igraph.Graph()
+    # note converting tuples to strings for vertex names as only
+    # integer or strings (and not tuples) can be looked up as vertex IDs
+    Gk.add_vertices([str(t) for t in Vk])
+    if debug:
+        sys.stderr.write(str([(str(t1), str(t2)) for (t1, t2) in Ek]) + '\n')
+    Gk.add_edges([(str(t1), str(t2)) for (t1, t2) in Ek])
+    if debug:
+        sys.stderr.write(Gk.summary() + '\n')
+    assert Gk.is_simple()
+    ## compute the graph power Gk^floor(k/2)
+    Gkpowerk2 = graphPower(Gk, k//2)
+    assert Gkpowerk2.is_simple()
+    if debug:
+        sys.stderr.write("Gkpowerk2.density() = %g,  Gk.density() = %g\n" % (Gkpowerk2.density(), Gk.density()))
+    assert Gk.ecount() == 0 or (Gkpowerk2.density() >= Gk.density())
+    # TODO more efficient to iterate over nodes in Vk instead of nested loop?
+    for u in range(N):
+        for v in range(N):
+            if ((u, v) in Vk and
+                Gkpowerk2.are_connected(str((u, v)), str((v, u)))):
+                return True
 
 
 def longestIsometricCycleConnected(G, verbose = False, debug = False):
@@ -163,52 +229,10 @@ def longestIsometricCycleConnected(G, verbose = False, debug = False):
     for k in k_iter:
         if verbose:
             sys.stderr.write("k = %d\n" % k)
-        ## Build the auxiliary graph Gk
-        Vk = [(u, v) for u in range(N) for v in range(N)
-              if d_G[u][v] == k // 2] # // operator is floor division
-        if debug:
-            sys.stderr.write('len(Vk) = %d\n' % len(Vk))
-            sys.stderr.write('Vk = %s\n' % str(Vk))
-        VK = set(Vk)  # a set is basically a dict, O(1) lookup
-        if debug:
-            sys.stderr.write('set len(Vk) = %d\n' % len(Vk))
-        ## Instead of each pair of tuples in Ek being a tuple of tuples
-        ## use a frozenset of tuples, and then convert the whole list
-        ## to a set to remove duplicates of the form
-        ## [((a, b), (c, d)), ((c, d), (a, b))]
-        ## i.e. this is the same edge in an undirected graph.
-        ## Need to use frozenset for inside the list comprehension
-        ## to which set is applied, as set is an unhasable type
-        ## but frozenset is not.
-        Ek = set([frozenset(((u, v), (w, x))) for (u, v) in Vk
-                  for (w, x) in Vk if
-                  (u, v) != (w, x) and
-                  G.are_connected(u, w) and G.are_connected(v, x)])
-        if debug:
-            sys.stderr.write('len(Ek) = %d\n' % len(Ek))
-        Gk = igraph.Graph()
-        # note converting tuples to strings for vertex names as only
-        # integer or strings (and not tuples) can be looked up as vertex IDs
-        Gk.add_vertices([str(t) for t in Vk])
-        if debug:
-            sys.stderr.write(str([(str(t1), str(t2)) for (t1, t2) in Ek]) + '\n')
-        Gk.add_edges([(str(t1), str(t2)) for (t1, t2) in Ek])
-        if debug:
-            sys.stderr.write(Gk.summary() + '\n')
-        assert Gk.is_simple()
-        ## compute the graph power Gk^floor(k/2)
-        Gkpowerk2 = graphPower(Gk, k//2)
-        assert Gkpowerk2.is_simple()
-        if debug:
-            sys.stderr.write("Gkpowerk2.density() = %g,  Gk.density() = %g\n" % (Gkpowerk2.density(), Gk.density()))
-        assert Gk.ecount() == 0 or (Gkpowerk2.density() >= Gk.density())
-        for u in range(N):
-            for v in range(N):
-                if ((u, v) in Vk and
-                    Gkpowerk2.are_connected(str((u, v)), str((v, u)))):
-                    if verbose and k != ans:
-                        sys.stderr.write('ans = %d\n' % k)
-                    ans = k
+        if isIsometricCycleLengthkEven(G, k, d_G, verbose, debug):
+            if verbose and k != ans:
+                sys.stderr.write('ans = %d\n' % k)
+            ans = k
     return ans
 
 
