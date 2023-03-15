@@ -198,7 +198,7 @@ def isIsometricCycleLengthkEven(G, k, d_G, verbose = False, debug = False):
     # #if verbose:
     # #    sys.stderr.write("k = %d, count = %d\n" % (k, count))
     # #return count
-    return True
+    return False
 
 def longestIsometricCycleConnected(G, verbose = False, debug = False):
     """longestIsometricCycleConnected - length of longest isometric cycle in G
