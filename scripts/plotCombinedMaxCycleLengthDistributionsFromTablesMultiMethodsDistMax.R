@@ -62,7 +62,7 @@
 ##
 ## Example:
 ##
-## Rscript ../../scripts/plotCombinedMaxCycleLengthDistributionsFromTablesMultiMethodsDistMax.R  TODO
+## Rscript ../../scripts/plotCombinedMaxCycleLengthDistributionsFromTablesMultiMethodsDistMax.R 'geodesic cycle' model1_geodesiccycledisttable.txt "dk*_geodesiccycledisttable.txt" patricia1990_geodesiccycletable.txt  model1_longest_isometric_cycle.txt "dk*_longest_isometric_cycle.txt" patricia1990_longest_isometric_cycle.txt "countGeodesicCycles" "longestIsometricCycle" patricia1990_combined_max_geodesic_multimodels_distmax.eps
 ##
 
 
