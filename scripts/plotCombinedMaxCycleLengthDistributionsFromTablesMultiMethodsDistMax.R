@@ -159,10 +159,6 @@ dat2 <- rbind(read_ergm_files(ergmtables_glob2),
 dat1$method <- method1_name
 dat2$method <- method2_name
 
-maxlen <- max(dat1$length, obs1_dat$length,
-              dat2$maxlen, obs2_dat$maxlen, na.rm = TRUE)
-cat('maxlen = ', maxlen, '\n')
-
 maxlendf <- summaryBy(length ~ sim + method + model, data = dat1, FUN = max)
 # replace NA max length with 0 for simulated newtorks with no cycles
 if (any(is.na(maxlendf$length.max))) {
@@ -170,15 +166,14 @@ if (any(is.na(maxlendf$length.max))) {
 }
 
 # rename summary column to match other data frame
-names(maxlendf)[names(maxlendf == "length.max")] <- "maxlen"
-
-maxlendf <- rbind(maxlendf, dat2)
+names(maxlendf)[names(maxlendf) == "length.max"] <- "maxlen"
+maxlendf <- rbind(maxlendf[order(names(maxlendf))], dat2[order(names(dat2))])
 maxlendf$model <- factor(maxlendf$model)
 
 obs_maxlendf <- summaryBy(length ~ method, data = obs1_dat, FUN = max)
-names(obs_maxlendf)[names(obs_maxlendf == "length.max")] <- maxlen
-obs_maxlendf <- rbind(obs_maxlendf, obs2_dat)
-obs_dat$method <- factor(obs_dat$method)
+names(obs_maxlendf)[names(obs_maxlendf) == "length.max"] <- "maxlen"
+obs_maxlendf <- rbind(obs_maxlendf[order(names(obs_maxlendf))], obs2_dat[order(names(obs2_dat))])
+obs_maxlendf$method <- factor(obs_maxlendf$method)
 p <- ggplot(maxlendf, aes(x = model, y = maxlen, fill = method))
 p <- p + geom_boxplot()
 p <- p + ptheme
@@ -186,7 +181,7 @@ p <- p + theme(axis.text = element_text(size = 12))
 p <- p + theme(axis.title = element_text(size = 12))
 p <- p + theme(legend.title = element_text(size=12))
 p <- p + theme(legend.text = element_text(size=12))
-p <- p + ylim(0, maxlen)
+##p <- p + ylim(0, maxlen)
 p <- p + theme(axis.text.x = element_text(colour = 'black'))
 p <- p + ptheme + xlab('Simulation model') + ylab(paste('Length of largest', descr))
 p <- p + geom_hline(data = obs_maxlendf, aes(yintercept = maxlen, colour = method,linetype = method))
