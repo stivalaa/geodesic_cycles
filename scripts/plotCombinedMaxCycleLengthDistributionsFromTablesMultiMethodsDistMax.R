@@ -165,6 +165,10 @@ if (any(is.na(maxlendf$length.max))) {
     maxlendf[which(is.na(maxlendf$length.max)),]$length.max <- 0
 }
 
+maxlen <- max(dat1$length, obs1_dat$length,
+              dat2$maxlen, obs2_dat$maxlen, na.rm = TRUE)
+cat('maxlen = ', maxlen, '\n')
+
 # rename summary column to match other data frame
 names(maxlendf)[names(maxlendf) == "length.max"] <- "maxlen"
 maxlendf <- rbind(maxlendf[order(names(maxlendf))], dat2[order(names(dat2))])
