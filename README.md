@@ -29,8 +29,6 @@ Keywords: Geodesic cycle, Isometric cycle, Exponential random graph model, ERGM,
 
 ## Code and scripts
 
-The code and scripts in this repository were originally imported from the geodesic_cycles_code_scripts.tar.gz file available from https://sites.google.com/site/alexdstivala/home/geodesic_cycles.
-
 The code for finding "atomic cycles" uses the Waffles machine learning library https://github.com/mikegashler/waffles.
 
 The code for counting geodesic cycles uses the CYPATH software from http://research.nii.ac.jp/~uno/code/cypath11.zip (see http://research.nii.ac.jp/~uno/code/cypath.html) to find chordless cycles.
