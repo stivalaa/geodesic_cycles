@@ -14,7 +14,7 @@ The code for counting geodesic cycles uses the CYPATH software from http://resea
 
 ## References
 
-Martin, J. L. 2017. "The structure of node and edge generation in a delusional social network". Journal of Social Structure, 18(1):1–21. https://doi.org/10.21307/joss-2018-005
+Martin, J. L. 2017. "The structure of node and edge generation in a delusional social network". Journal of Social Structure, 18(1):1–22. https://doi.org/10.21307/joss-2018-005
 
 Martin, J. L. 2020. "Comment on Geodesic Cycle Length Distributions in Delusional and Other Social Networks". Journal of Social Structure, 21(1):77-93. https://doi.org/10.21307/joss-2020-003
 
