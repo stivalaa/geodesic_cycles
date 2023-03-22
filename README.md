@@ -33,6 +33,8 @@ The code for finding "atomic cycles" uses the Waffles machine learning library h
 
 The code for counting geodesic cycles uses the CYPATH software from http://research.nii.ac.jp/~uno/code/cypath11.zip (see http://research.nii.ac.jp/~uno/code/cypath.html) to find chordless cycles.
 
+Both the R and Python scripts use the igraph graph library https://igraph.org/.
+
 ## References
 
 Martin, J. L. 2017. "The structure of node and edge generation in a delusional social network". Journal of Social Structure, 18(1):1–22. https://doi.org/10.21307/joss-2018-005
